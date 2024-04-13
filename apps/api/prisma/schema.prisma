@@ -44,6 +44,12 @@ model UsersCards {
   @@id([userId, cardTypeId])
 }
 
+model Categories {
+  id       Int       @id @default(autoincrement())
+  name     String
+  Partners Partner[]
+}
+
 model Partner {
   id             Int             @id @default(autoincrement())
   name           String
@@ -51,6 +57,8 @@ model Partner {
   address        String?
   description    String?
   CashbackOffers CashbackOffer[]
+  categoryId     Int
+  Category       Categories      @relation(fields: [categoryId], references: [id])
 }
 
 model CashbackOffer {

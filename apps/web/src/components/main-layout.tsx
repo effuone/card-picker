@@ -28,8 +28,6 @@ interface LayoutProps {
 const MainLayout: React.FC<LayoutProps> = ({ children, route }) => {
   const { user, logout } = useAuth();
 
-  console.log(user);
-
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
 
   const teams = [

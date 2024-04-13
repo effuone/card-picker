@@ -15,20 +15,31 @@ model User {
   phone                     String          @unique
   passwordHash              String
   currentHashedRefreshToken String?
-  BankCard                  BankCard[]
-  CashbackOffer             CashbackOffer[]
+  Cards                     UserBankCard[]
+  CashbackOffers            CashbackOffer[]
 
   @@map("users")
 }
 
 model BankCard {
-  id       Int    @id @default(autoincrement())
+  id       Int            @id @default(autoincrement())
   bankName String // e.g., "Halyk Bank"
-  cardType String // e.g., "Halyk Platinum"
-  userId   Int
-  User     User   @relation(fields: [userId], references: [id])
+  cardType String[] // e.g., ["Halyk Platinum", "Halyk Gold"]
+  Users    UserBankCard[]
 
   @@map("bankCards")
+}
+
+// Join table for many-to-many relationship between User and BankCard
+model UserBankCard {
+  user       User     @relation(fields: [userId], references: [id])
+  userId     Int // Foreign key for User
+  bankCard   BankCard @relation(fields: [bankCardId], references: [id])
+  bankCardId Int // Foreign key for BankCard
+  assignedAt DateTime @default(now()) // The date the card was assigned to the user
+
+  @@id([userId, bankCardId])
+  @@map("userBankCards")
 }
 
 model CashbackOffer {

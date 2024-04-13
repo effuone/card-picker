@@ -7,7 +7,57 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Input } from "@/components/ui/input";
 import { FC } from "react";
+
+const cards = [
+  {
+    bankName: "Forte Bank",
+    color: "forte",
+    cardName: "Blue",
+    isVisa: false,
+  },
+  {
+    bankName: "Bank CreditCredit",
+    color: "bcc",
+    cardName: "#картакарта",
+    isVisa: true,
+  },
+  {
+    bankName: "Halyk Bank",
+    color: "halyk",
+    cardName: "Halyk Bonus Digital Card",
+    isVisa: true,
+  },
+  {
+    bankName: "Bank CreditCredit",
+    color: "bcc",
+    cardName: "#ironcard",
+    isVisa: true,
+  },
+];
+
+const CatalogCard: FT<{ image: string; cashback: number; shop: string }> = ({
+  image,
+  cashback,
+  shop,
+}) => {
+  return (
+    <div className="flex gap-5 items-start pt-4 pl-5 rounded-xl shadow-sm max-md:pl-5">
+      <div className="flex flex-col flex-1 my-auto">
+        <div className="text-2xl text-neutral-800">{shop}</div>
+        <div className="justify-center px-2.5 py-1 mt-2 text-xs text-white bg-green-600 rounded-md">
+          Кэшбек до {cashback}%
+        </div>
+      </div>
+      <img
+        loading="lazy"
+        src={image}
+        className="shrink-0 self-start max-w-full aspect-[1.25] w-[100px]"
+      />
+    </div>
+  );
+};
 
 const Header: FC = () => {
   return (
@@ -28,13 +78,63 @@ const Header: FC = () => {
   );
 };
 
-// <button className="border-solid border-[1px] border=[#8D8D8D] border-gray-400 opacity-50 rounded-[7px]	 w-[264px] h-[23.11px] flex items-center">
-//   <img
-//     loading="lazy"
-//     src="https://i.imgur.com/vcw24cB.png"
-//     className="mx-auto w-4"
-//   />
-// </button>
+const Catalog: FC = () => {
+  return (
+    <div className="flex justify-end items-start mt-10 px-16 bg-white max-md:px-5 w-full max-w-5xl">
+      <div className="flex flex-col px-9 pb-14 ml-5 w-full bg-white rounded-xl border border-solid border-[#969696] max-md:px-5 max-md:max-w-full">
+        <Input
+          id="search-field"
+          className="flex z-10 gap-5 justify-between self-center px-5 -mt-2 max-w-full text-base font-medium bg-white rounded-xl border border-solid shadow-sm border-zinc-300 text-neutral-500 w-[470px] max-md:flex-wrap max-md:pl-5"
+          placeholder="Поиск..."
+          type="search"
+          name="search"
+        />
+        <div className="mt-14 max-md:mt-10 max-md:max-w-full">
+          <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+            <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col grow font-semibold max-md:mt-7 md:gap-y-3">
+                <CatalogCard
+                  image="https://i.imgur.com/Ok4sxNV.png"
+                  cashback={15}
+                  shop="Meloman"
+                />
+                <CatalogCard
+                  image="https://i.imgur.com/Ok4sxNV.png"
+                  cashback={15}
+                  shop="Meloman"
+                />
+                <CatalogCard
+                  image="https://i.imgur.com/Ok4sxNV.png"
+                  cashback={15}
+                  shop="Meloman"
+                />
+              </div>
+            </div>
+            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col grow font-semibold max-md:mt-7 md:gap-y-3">
+                <CatalogCard
+                  image="https://i.imgur.com/Ok4sxNV.png"
+                  cashback={15}
+                  shop="Meloman"
+                />
+                <CatalogCard
+                  image="https://i.imgur.com/Ok4sxNV.png"
+                  cashback={15}
+                  shop="Meloman"
+                />
+                <CatalogCard
+                  image="https://i.imgur.com/Ok4sxNV.png"
+                  cashback={15}
+                  shop="Meloman"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const MyCardsPage: FC = () => {
   return (
@@ -44,9 +144,14 @@ const MyCardsPage: FC = () => {
         <div className="w-[290px] bg-[#F2F2F2] h-dvh flex justify-center relative">
           <Carousel orientation="vertical" className="h-[600px] mt-14">
             <CarouselContent className="-mt-1 h-[590px]">
-              {Array.from({ length: 5 }).map((_, index) => (
-                <CarouselItem key={index} className="pt-1 md:basis-1/3">
-                  <CardCustom />
+              {cards.map((сard) => (
+                <CarouselItem key={сard.cardName} className="pt-1 md:basis-1/3">
+                  <CardCustom
+                    bankName={сard.bankName}
+                    color={сard.color}
+                    cardName={сard.cardName}
+                    isVisa={сard.isVisa}
+                  />
                 </CarouselItem>
               ))}
             </CarouselContent>
@@ -54,6 +159,7 @@ const MyCardsPage: FC = () => {
             <CarouselNext />
           </Carousel>
         </div>
+        <Catalog />
       </div>
     </>
   );

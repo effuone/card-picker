@@ -49,6 +49,7 @@ model Partner {
   name           String
   image          String?
   address        String?
+  description    String?
   CashbackOffers CashbackOffer[]
 }
 

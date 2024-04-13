@@ -8,6 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Input } from "@/components/ui/input";
+import { useScreenDetector } from "@/lib/hooks/useScreenDetector";
 import { FC } from "react";
 
 const cards = [
@@ -37,7 +38,7 @@ const cards = [
   },
 ];
 
-const CatalogCard: FT<{ image: string; cashback: number; shop: string }> = ({
+const CatalogCard: FC<{ image: string; cashback: number; shop: string }> = ({
   image,
   cashback,
   shop,
@@ -80,7 +81,7 @@ const Header: FC = () => {
 
 const Catalog: FC = () => {
   return (
-    <div className="flex justify-end items-start mt-10 px-16 bg-white max-md:px-5 w-full max-w-5xl">
+    <div className="flex justify-end items-start px-16 mt-14 bg-white max-md:px-5 w-full max-w-5xl">
       <div className="flex flex-col px-9 pb-14 ml-5 w-full bg-white rounded-xl border border-solid border-[#969696] max-md:px-5 max-md:max-w-full">
         <Input
           id="search-field"
@@ -137,13 +138,18 @@ const Catalog: FC = () => {
 };
 
 const MyCardsPage: FC = () => {
+  const { isMobile } = useScreenDetector();
+
   return (
     <>
       <Header />
-      <div className="flex space-between md:pl-[50px]">
-        <div className="w-[290px] bg-[#F2F2F2] h-dvh flex justify-center relative">
-          <Carousel orientation="vertical" className="h-[600px] mt-14">
-            <CarouselContent className="-mt-1 h-[590px]">
+      <div className="flex flex-col md:flex-row space-between md:pl-[50px]">
+        <div className="md:w-[290px] bg-[#F2F2F2] md:h-dvh flex md:justify-center ">
+          <Carousel
+            orientation={isMobile ? "horizontal" : "vertical"}
+            className="md:h-[600px] mt-14 h-[270px] w-[300px] mx-auto"
+          >
+            <CarouselContent className="-mt-1 md:h-[590px]">
               {cards.map((сard) => (
                 <CarouselItem key={сard.cardName} className="pt-1 md:basis-1/3">
                   <CardCustom
@@ -155,8 +161,8 @@ const MyCardsPage: FC = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="ml-2 md:ml-0" />
+            <CarouselNext className="mr-2 md:mr-0" />
           </Carousel>
         </div>
         <Catalog />

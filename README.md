@@ -29,5 +29,6 @@ CardPicker is a web-based platform designed to assist consumers in making econom
 2. **Install Dependencies**: Run `yarn install` in both API and Web directories.
 3. **Environment Configuration**: Rename `.env.example` to `.env` and update it with your development settings.
 4. **Prepare databases**: Run `docker-compose -f docker-compose.dev.yml up -d` to run Docker container with NGINX web server, PostgreSQL and Redis databases. 
-5. **Migrate/Populate databases**: Execute `npx prisma db push` in API directory to create PostgreSQL tables using Prisma
+5. **Migrate database**: Execute `npx prisma db push` in API directory to create PostgreSQL tables using Prisma
+5. **Populate database**: Execute `yarn seed` in API directory to populate the database with existing banks from Kazakhstan and their popular card types.
 6. **Start application**: Run `yarn run start:dev` in API directory and `yarn dev` in web directory

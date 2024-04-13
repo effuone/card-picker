@@ -1,1255 +1,2936 @@
 [
   {
-    "partner": "ГОСТИНИЦА ДОСТЫК",
+    "title": "ГОСТИНИЦА ДОСТЫК",
     "cashbackPercent": 5,
-    "category": "Туризм и Отели"
+    "category": "Туризм и Отели",
+    "cardPartner": "default"
   },
   {
-    "partner": "RIBEYE ART AND GRILL",
+    "title": "RIBEYE ART AND GRILL",
     "cashbackPercent": 4,
-    "category": "Еда"
-  },
-  { "partner": "LINE BREW", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "ИП МАНАКБАЕВА", "cashbackPercent": 3, "category": "Услуги" },
-  {
-    "partner": "ПАВИЛЬОН \"ЖИГУЛИ\"",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "САЛОН КРАСОТЫ \"ЭДЕМ\"",
+    "title": "LINE BREW",
     "cashbackPercent": 5,
-    "category": "Красота"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "SALON FASHION NAILS",
+    "title": "ИП МАНАКБАЕВА",
+    "cashbackPercent": 3,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ПАВИЛЬОН \"ЖИГУЛИ\"",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "САЛОН КРАСОТЫ \"ЭДЕМ\"",
+    "cashbackPercent": 5,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "SALON FASHION NAILS",
     "cashbackPercent": 2,
-    "category": "Услуги"
+    "category": "Услуги",
+    "cardPartner": "default"
   },
-  { "partner": "СТОМАТОЛОГИЯ 1", "cashbackPercent": 3, "category": "" },
   {
-    "partner": "РЕСТОРАН \"HARAT'S PUB\"",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "КАФЕ \"ВИЗИТ\"", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ФЛИРТ", "cashbackPercent": 3, "category": "Другие товары" },
-  {
-    "partner": "ТОО \"СЫМБАТ-ДЕНТ\"",
+    "title": "СТОМАТОЛОГИЯ 1",
     "cashbackPercent": 3,
-    "category": "Здоровье"
+    "category": "",
+    "cardPartner": "default"
   },
   {
-    "partner": "АВТОМОЙКА \"ОАЗИС\"",
+    "title": "РЕСТОРАН \"HARAT'S PUB\"",
     "cashbackPercent": 5,
-    "category": "Авто"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "Пивной бар Shiny River",
-    "cashbackPercent": 5,
-    "category": "Еда"
+    "title": "КАФЕ \"ВИЗИТ\"",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "ПОСТЕЛЬНЫЙ РАЙОН",
+    "title": "ФЛИРТ",
     "cashbackPercent": 3,
-    "category": "Другие товары"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
-  { "partner": "BEAUTY MED", "cashbackPercent": 5, "category": "Здоровье" },
-  { "partner": "Кафе AliBaba", "cashbackPercent": 5, "category": "Еда" },
   {
-    "partner": "Детская стоматология Baby Smile",
+    "title": "ТОО \"СЫМБАТ-ДЕНТ\"",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "АВТОМОЙКА \"ОАЗИС\"",
     "cashbackPercent": 5,
-    "category": "Здоровье"
+    "category": "Авто",
+    "cardPartner": "default"
   },
-  { "partner": "Шапкофф", "cashbackPercent": 3, "category": "Другие товары" },
-  { "partner": "ИП Галиев", "cashbackPercent": 5, "category": "" },
-  { "partner": "ZHEKA’S Doner House", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "ИП Умид", "cashbackPercent": 5, "category": "Еда" },
   {
-    "partner": "Интернет магазин Бретель",
+    "title": "Пивной бар Shiny River",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ПОСТЕЛЬНЫЙ РАЙОН",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "BEAUTY MED",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе AliBaba",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Детская стоматология Baby Smile",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Шапкофф",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Галиев",
+    "cashbackPercent": 5,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ZHEKA’S Doner House",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Умид",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Интернет магазин Бретель",
     "cashbackPercent": 10,
-    "category": "Еда"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "Магазин Кенгуру", "cashbackPercent": 5, "category": "Еда" },
   {
-    "partner": "Клиника Рахат терминал 1",
+    "title": "Магазин Кенгуру",
     "cashbackPercent": 5,
-    "category": "Здоровье"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "Кафе \"Той\"", "cashbackPercent": 2, "category": "Еда" },
   {
-    "partner": "Студия Айгерим Кабировны",
+    "title": "Клиника Рахат терминал 1",
     "cashbackPercent": 5,
-    "category": "Услуги"
+    "category": "Здоровье",
+    "cardPartner": "default"
   },
-  { "partner": "Аптека", "cashbackPercent": 2, "category": "Здоровье" },
   {
-    "partner": "Магазин Жаксылык",
+    "title": "Кафе \"Той\"",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "Цветы", "cashbackPercent": 5, "category": "Дом и Сад" },
-  { "partner": "МАГАЗИН \"ПИВКОFF\"", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Кафе Умит", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Магазин Assyl", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Фарм Сервис", "cashbackPercent": 2, "category": "Здоровье" },
   {
-    "partner": "ТОО Astana Hotel Management",
+    "title": "Студия Айгерим Кабировны",
     "cashbackPercent": 5,
-    "category": "Туризм и Отели"
+    "category": "Услуги",
+    "cardPartner": "default"
   },
   {
-    "partner": "Магазин \"Elite Furs\"",
+    "title": "Аптека",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Жаксылык",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Цветы",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "МАГАЗИН \"ПИВКОFF\"",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Умит",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Assyl",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Фарм Сервис",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Astana Hotel Management",
+    "cashbackPercent": 5,
+    "category": "Туризм и Отели",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин \"Elite Furs\"",
     "cashbackPercent": 10,
-    "category": "Еда"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "Магазин The Simpsons",
+    "title": "Магазин The Simpsons",
     "cashbackPercent": 5,
-    "category": "Еда"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "ТОО \"Cleanetica West (Клинэттика Вест)\"",
+    "title": "ТОО \"Cleanetica West (Клинэттика Вест)\"",
     "cashbackPercent": 3,
-    "category": "Другие товары"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
-  { "partner": "TEZTAMAQ", "cashbackPercent": 2, "category": "Еда" },
   {
-    "partner": "Гиппермаркет SMALL бутик Аврора",
+    "title": "TEZTAMAQ",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "Ресторан Cafeeiro", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Пивной бар Наш Двор", "cashbackPercent": 2, "category": "Еда" },
   {
-    "partner": "Женское нижнее белье \"Кокетка\"",
+    "title": "Гиппермаркет SMALL бутик Аврора",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Cafeeiro",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Пивной бар Наш Двор",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Женское нижнее белье \"Кокетка\"",
     "cashbackPercent": 3,
-    "category": "Еда"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "ЧИ100ТЕКА", "cashbackPercent": 2, "category": "Другие товары" },
   {
-    "partner": "Магазин Спектр - отдел Бытовая химия",
+    "title": "ЧИ100ТЕКА",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
   {
-    "partner": "МАГАЗИН MIXX",
+    "title": "Магазин Спектр - отдел Бытовая химия",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "МАГАЗИН MIXX",
     "cashbackPercent": 3,
-    "category": "Другие товары"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
   {
-    "partner": "ИП Гюрджян Андруш Хачикович",
+    "title": "ИП Гюрджян Андруш Хачикович",
     "cashbackPercent": 2,
-    "category": "Еда"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "ТОО БЕТА и К", "cashbackPercent": 7, "category": "Здоровье" },
   {
-    "partner": "Бутик модной одежды \"LS\"",
-    "cashbackPercent": 3,
-    "category": "Еда"
-  },
-  {
-    "partner": "ИП Аузбекова А.А. Бутик Organi Market",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "City Market", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Фотосалон Pozitiff",
-    "cashbackPercent": 5,
-    "category": "Услуги"
-  },
-  { "partner": "ТОО АВТОTRAST", "cashbackPercent": 2, "category": "Авто" },
-  { "partner": "ОйInn", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ТОО Шабыс", "cashbackPercent": 2, "category": "Здоровье" },
-  { "partner": "Магазин \"Анель\"", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Минимаркет На Мира", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ИП Болотова А.Р. Мужской трикотаж джинсы",
-    "cashbackPercent": 3,
-    "category": "Еда"
-  },
-  {
-    "partner": "Магазин Хадиджа",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "LA DESSERT CAFETERIA",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  {
-    "partner": "ТОО КРЕПЕЖСПЕЦСЕРВИС",
-    "cashbackPercent": 5,
-    "category": "Дом и Сад"
-  },
-  { "partner": "Кулинария \"Токаш\"", "cashbackPercent": 3, "category": "Еда" },
-  {
-    "partner": "ТОО \"МиТ Фарм+\"",
-    "cashbackPercent": 3,
-    "category": "Здоровье"
-  },
-  { "partner": "Бар Боулинга", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Медицинский центрВаше Сердце",
-    "cashbackPercent": 5,
-    "category": "Здоровье"
-  },
-  {
-    "partner": "Автомаркет Кактус",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "ИП \"Сураганов\"", "cashbackPercent": 10, "category": "Еда" },
-  { "partner": "Магазин Модная Леди", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Салон цветов GULDER",
-    "cashbackPercent": 3,
-    "category": "Дом и Сад"
-  },
-  { "partner": "ИП Пучкова Е.А.", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ИП \"Зайнуллина Ю.И.\"",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "кафе Бонатри", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Клиника Рахат (Жетысу)",
-    "cashbackPercent": 5,
-    "category": "Здоровье"
-  },
-  {
-    "partner": "Детский развлекат. центр Activity Park",
-    "cashbackPercent": 4,
-    "category": "Туризм и Отели"
-  },
-  {
-    "partner": "Бутик Сауле ТД Дана",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "АВИАТОР", "cashbackPercent": 10, "category": "Еда" },
-  { "partner": "STILNYASHKA", "cashbackPercent": 3, "category": "Еда" },
-  {
-    "partner": "Стоматология Мастер-Ден",
-    "cashbackPercent": 5,
-    "category": "Здоровье"
-  },
-  { "partner": "ИП Сплошной А.Т.", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "ИП Какинур", "cashbackPercent": 2, "category": "" },
-  { "partner": "Семейное кафе Loft", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Golden Moon", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "Asteria", "cashbackPercent": 10, "category": "Услуги" },
-  { "partner": "Байтерек", "cashbackPercent": 5, "category": "" },
-  {
-    "partner": "МАГАЗИН АКСЕССУАРОВ \"КОНТАКТ\"",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  {
-    "partner": "Luxury-1, ИП Кадирова",
-    "cashbackPercent": 3,
-    "category": "Еда"
-  },
-  { "partner": "Лаунж Бар CRAFT", "cashbackPercent": 10, "category": "Еда" },
-  { "partner": "Кафе Жадыра", "cashbackPercent": 10, "category": "Еда" },
-  {
-    "partner": "Магазин БОГЕМА",
-    "cashbackPercent": 5,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "Химчистка ItalClean",
-    "cashbackPercent": 2,
-    "category": "Услуги"
-  },
-  {
-    "partner": "Химчистка Cleanit.kz",
-    "cashbackPercent": 5,
-    "category": "Услуги"
-  },
-  { "partner": "ИП Бегалиева Г.М.", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "ИП Мусли С.В.", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Магазин \"Посуда\"",
-    "cashbackPercent": 5,
-    "category": "Другие товары"
-  },
-  { "partner": "Адал-Башмачок", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "центр косметологии Мушрапилова Ирина",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "Магазин Бекка", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "магазин Арсенал", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "ИП Гульдерай", "cashbackPercent": 3, "category": "Дом и Сад" },
-  {
-    "partner": "МАГАЗИН АКСЕССУАРОВ MEGA IN TEL",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "Ресторан Глория", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "ИП Скрипкина Н.А.", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ТОО Химчистка Жасмин",
-    "cashbackPercent": 5,
-    "category": "Услуги"
-  },
-  { "partner": "ИП Чернояров Н.В.", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "Магазин \"Beluga\"", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "ИП Амирали",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "PUDRA", "cashbackPercent": 2, "category": "Другие товары" },
-  { "partner": "Multi Тех", "cashbackPercent": 3, "category": "Другие товары" },
-  { "partner": "ИП Arlan motors", "cashbackPercent": 5, "category": "Авто" },
-  {
-    "partner": "Магазин \"Beethoven\"",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  { "partner": "Евро Багет", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "#PeiZde$", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "ИП Тимофеева И В Бутик Elite Perfume",
-    "cashbackPercent": 3,
-    "category": "Здоровье"
-  },
-  { "partner": "Центр Плова", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "Cap&Cake", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Магнолия", "cashbackPercent": 2, "category": "Дом и Сад" },
-  {
-    "partner": "ИП \"БОЛЕСТА А.В.\"",
-    "cashbackPercent": 5,
-    "category": "Авто"
-  },
-  { "partner": "Аптека", "cashbackPercent": 2, "category": "Здоровье" },
-  { "partner": "ИП Ашурова", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "кафе Бесбармак", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Голландия Гүлдери",
-    "cashbackPercent": 2,
-    "category": "Дом и Сад"
-  },
-  { "partner": "Fass Bier", "cashbackPercent": 10, "category": "Еда" },
-  { "partner": "ИП Валович О.А.", "cashbackPercent": 2, "category": "Красота" },
-  {
-    "partner": "Гостиница \"ДАРКОЛ\"",
-    "cashbackPercent": 10,
-    "category": "Услуги"
-  },
-  { "partner": "Магазин Алтын Алка", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ТОО Вкусная лавка", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "ИП Третьякова И.П.", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "Кафе \"Рубин\"", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Cosmos Sushi Bar", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Зоомагазин Прохвост",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "ApplePay Sert", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Столовая Red Office", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ИП Таис", "cashbackPercent": 3, "category": "Еда" },
-  {
-    "partner": "студия маникуюра Tiara Nails",
-    "cashbackPercent": 5,
-    "category": "Красота"
-  },
-  { "partner": "Асхана Ыстық", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Ресторан Favor city view",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "Chop - Chop", "cashbackPercent": 10, "category": "Красота" },
-  {
-    "partner": "Жен.магазин одеждыLuxury,ИПОспанова М",
-    "cashbackPercent": 3,
-    "category": "Еда"
-  },
-  {
-    "partner": "Магазин Грация Style",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "S-clinic - Медицинский центр",
-    "cashbackPercent": 15,
-    "category": "Здоровье"
-  },
-  {
-    "partner": "Магазин Пивная Заправка",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  {
-    "partner": "Beauty gallery VILLA",
-    "cashbackPercent": 3,
-    "category": "Здоровье"
-  },
-  { "partner": "Шоурум Ваниль", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Химчистка №1",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "ТОО Садык А. К.",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  {
-    "partner": "Отдел часов Шико бутик 129. ЦУМ.",
-    "cashbackPercent": 3,
-    "category": "Еда"
-  },
-  {
-    "partner": "ТОО \"Школа Виталогии\"",
-    "cashbackPercent": 5,
-    "category": "Услуги"
-  },
-  {
-    "partner": "магазин детских товаров Капитошка",
-    "cashbackPercent": 3,
-    "category": "Еда"
-  },
-  { "partner": "Ресторан Гранат 2", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "ИП Мирзаев А.А.", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Кафе \"Бирюлька\"", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "ИП Урустембекова Х.И.",
-    "cashbackPercent": 3,
-    "category": "Еда"
-  },
-  { "partner": "ИП Сардова О.И.", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ИП \"Юрьева\" (Атакент)",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "ИП Абилхайыров Курмет Манатбекович",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  {
-    "partner": "Гостиница МедАмин",
-    "cashbackPercent": 10,
-    "category": "Туризм и Отели"
-  },
-  { "partner": "Auto Shop", "cashbackPercent": 3, "category": "Другие товары" },
-  {
-    "partner": "ИП Саенко О.Н. Салон Oksis",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  {
-    "partner": "Империал бутик 17",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "ИП Сметанкин Е.П. Салон 100 м.2",
-    "cashbackPercent": 5,
-    "category": "Другие товары"
-  },
-  { "partner": "Магазин WEST", "cashbackPercent": 2, "category": "Авто" },
-  {
-    "partner": "Т.Д. Евразия, бутик 1.",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  {
-    "partner": "ИП Куприенко",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  { "partner": "ТОО Диас Фарм", "cashbackPercent": 2, "category": "Здоровье" },
-  {
-    "partner": "ТОО Екибастузский лечебно-диагностически",
-    "cashbackPercent": 5,
-    "category": "Здоровье"
-  },
-  { "partner": "Шапкофф", "cashbackPercent": 3, "category": "Другие товары" },
-  {
-    "partner": "Ресторан \"Папарации\"",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  {
-    "partner": "Rental car ТОО Владекс",
-    "cashbackPercent": 2,
-    "category": "Авто"
-  },
-  { "partner": "ИП Копирбаева", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "Family MARKET", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Магазин Нур", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "кафе Корё", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "АГЗС 1", "cashbackPercent": 5, "category": "Авто" },
-  {
-    "partner": "Promenade Optics",
-    "cashbackPercent": 5,
-    "category": "Одежда и Аксессуары"
-  },
-  { "partner": "ТОО N-Royal", "cashbackPercent": 3, "category": "Здоровье" },
-  { "partner": "Асхана Ast Food", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ТОО Kinderstore Almaty",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "Оймақ", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ZakazBuketov.kz Astana",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  { "partner": "Кафе Антрекот", "cashbackPercent": 3, "category": "Еда" },
-  {
-    "partner": "МЕГА ОПТИКА",
-    "cashbackPercent": 5,
-    "category": "Одежда и Аксессуары"
-  },
-  { "partner": "Miradoor", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Магазин Болашак",
-    "cashbackPercent": 5,
-    "category": "Дом и Сад"
-  },
-  { "partner": "Магазин Нагима", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "МИР ОДЕЖДЫ", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Pascucci", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Лайм", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Ресторан- кофейня Рибай",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "chickfirst", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Пивной Бар Kruzhka", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Lux автомойка", "cashbackPercent": 2, "category": "Авто" },
-  {
-    "partner": "Строй. центр Саламат",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "Legend Laboratory",
-    "cashbackPercent": 2,
-    "category": "Красота"
-  },
-  { "partner": "ТОО Yavmaline", "cashbackPercent": 5, "category": "Услуги" },
-  {
-    "partner": "Alco Market Atlantic",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "Аптека", "cashbackPercent": 2, "category": "Здоровье" },
-  { "partner": "Dream Toys", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Академия Единоборств Qazaq Batyry",
-    "cashbackPercent": 2,
-    "category": "Услуги"
-  },
-  { "partner": "Магазин Бишкек", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Отдел Ануара, отдел 53 Изюм",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "Магазин Евразия", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "До Дома", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "Dubai Lounge Bar", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Магазин AQ Ai", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ТОО О.Д.М.ФАРМ (Сейфуллина)",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  { "partner": "Winchester", "cashbackPercent": 2, "category": "Красота" },
-  {
-    "partner": "Кулинария Деликатесы",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "Пицца Нова", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Манты", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "кафе Мимино", "cashbackPercent": 10, "category": "Еда" },
-  {
-    "partner": "ТОО Alfaflowers 2",
-    "cashbackPercent": 5,
-    "category": "Дом и Сад"
-  },
-  { "partner": "Кафе Айса", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Гостиница Катон",
-    "cashbackPercent": 2,
-    "category": "Туризм и Отели"
-  },
-  { "partner": "Абылайхан", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Сотовые аксессуары Игровой мир",
-    "cashbackPercent": 2,
-    "category": "Электроника"
-  },
-  { "partner": "Азия Профиль", "cashbackPercent": 2, "category": "Дом и Сад" },
-  { "partner": "James Burger", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "ТОО Казфарм-С", "cashbackPercent": 2, "category": "Здоровье" },
-  {
-    "partner": "Салон Красоты SAHAR&VOSK",
-    "cashbackPercent": 5,
-    "category": "Здоровье"
-  },
-  {
-    "partner": "Столовая Фрикаделька",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "Магазин Pilots", "cashbackPercent": 2, "category": "Авто" },
-  { "partner": "У хавушки", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "магазин косметики Alexa",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "Megakids Almaty", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "Веранда", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Кафе Far-ryh", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "Жеты Казан", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Черчил Паб", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Магазин", "cashbackPercent": 2, "category": "Другие товары" },
-  {
-    "partner": "Mamas Bazaar",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "аптека ТОО ТОО АЯНА",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  {
-    "partner": "Салон красоты KADARIYA",
-    "cashbackPercent": 3,
-    "category": "Здоровье"
-  },
-  { "partner": "Магазин COOL", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Магазин DN", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Перевернутый дом", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "Little Brazil", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "ИП Дамир", "cashbackPercent": 2, "category": "Дом и Сад" },
-  { "partner": "Kiss chocolaterie", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "цветочная студия 25 Rue De Fleur",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "ТОО Альмансур Group",
-    "cashbackPercent": 2,
-    "category": "Авто"
-  },
-  { "partner": "NasH", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "AUTODARSHOP", "cashbackPercent": 5, "category": "Авто" },
-  {
-    "partner": "Ikigai bar&caffe house",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "Мини-маркет Кулагер", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Магазин Мотоцент", "cashbackPercent": 2, "category": "Авто" },
-  { "partner": "ИП Жугембаева Л.Т.", "cashbackPercent": 3, "category": "Авто" },
-  { "partner": "Nazdar", "cashbackPercent": 2, "category": "Дом и Сад" },
-  { "partner": "Столовая ТД Рахмет", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Кор Сар", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Рыбачьте с нами", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "ТОО ИМЭП", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ММ - Маркет", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "La Rose", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "ИП Sumakh", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Aqua+", "cashbackPercent": 5, "category": "Авто" },
-  { "partner": "shop.grohe.kz", "cashbackPercent": 2, "category": "Дом и Сад" },
-  { "partner": "Wien Cafe", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Granat", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "No Name Bar", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "магазин Рустем", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "кафе Instacafe", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Zhekas Plov and Doner House",
-    "cashbackPercent": 3,
-    "category": "Еда"
-  },
-  {
-    "partner": "ИП Невматулина Ф.М. Портмоне",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "Best Sport", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Sushi n roll", "cashbackPercent": 10, "category": "Еда" },
-  { "partner": "Estetik club-2", "cashbackPercent": 2, "category": "Здоровье" },
-  { "partner": "Магазин Чиполлино", "cashbackPercent": 3, "category": "Еда" },
-  {
-    "partner": "Гомельчанка",
-    "cashbackPercent": 5,
-    "category": "Другие товары"
-  },
-  { "partner": "Муз Культура", "cashbackPercent": 15, "category": "Еда" },
-  { "partner": "Flirtshop.kz", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Фастфуд Pika pika", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "АВТО НИК", "cashbackPercent": 2, "category": "Авто" },
-  {
-    "partner": "магазин Acvelon",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "OneShott Coffee", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "TOP smile", "cashbackPercent": 5, "category": "Здоровье" },
-  { "partner": "ТОО АЖТ фарм", "cashbackPercent": 2, "category": "Здоровье" },
-  {
-    "partner": "Фирма А Профиль",
-    "cashbackPercent": 2,
-    "category": "Дом и Сад"
-  },
-  {
-    "partner": "ТОО ИнкомСтройПласт - KZ",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  {
-    "partner": "Отдел Flourish",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "Стоматология «Happy Clinic»",
-    "cashbackPercent": 3,
-    "category": "Здоровье"
-  },
-  { "partner": "Ramen House", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Bowler Coffee Roasters",
-    "cashbackPercent": 10,
-    "category": "Еда"
-  },
-  { "partner": "Шанс", "cashbackPercent": 2, "category": "Другие товары" },
-  {
-    "partner": "ТОО Эко Полигон Астаны",
-    "cashbackPercent": 2,
-    "category": "Услуги"
-  },
-  { "partner": "Магазин Kidds", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Отель Керемет",
-    "cashbackPercent": 10,
-    "category": "Туризм и Отели"
-  },
-  { "partner": "Донер Дэрзкий", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Teplo & Voda", "cashbackPercent": 5, "category": "Дом и Сад" },
-  {
-    "partner": "Универмаг 2",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "Узбекский Двор №8", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Детский развлекательный центр Alem park",
-    "cashbackPercent": 2,
-    "category": "Развлечения"
-  },
-  {
-    "partner": "Центр эстетической медицины ЕСФИРЬ",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  {
-    "partner": "Медицинский центр Tumar Clinic",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  { "partner": "Магазин Империал", "cashbackPercent": 3, "category": "Еда" },
-  {
-    "partner": "АО Гостиничный комплекс Отрар",
-    "cashbackPercent": 5,
-    "category": "Туризм и Отели"
-  },
-  { "partner": "Магазин Мир одежды", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "SOZO premium", "cashbackPercent": 3, "category": "Здоровье" },
-  { "partner": "Магазин Nabi", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "JARooM", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Салон красоты Marafet",
-    "cashbackPercent": 3,
-    "category": "Здоровье"
-  },
-  { "partner": "Ас Болсын", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ТОО Альфа Фуд", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Арзан COTTON", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Beauty Skin", "cashbackPercent": 2, "category": "Красота" },
-  { "partner": "Neo Laser", "cashbackPercent": 10, "category": "Здоровье" },
-  { "partner": "Shay-Pay", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ИП Жасмин", "cashbackPercent": 2, "category": "Электроника" },
-  {
-    "partner": "Ресторан Ocean Basket",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "магазин Apple Town", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Sun Dew спа салон",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  { "partner": "Chim Chi", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Детский досуговый центр Teddy Parking",
-    "cashbackPercent": 2,
-    "category": "Услуги"
-  },
-  { "partner": "Отдел 12 Контейнер", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ИП Алмабекова Н.Ж.", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Monroe Spa Salon",
-    "cashbackPercent": 5,
-    "category": "Здоровье"
-  },
-  { "partner": "Top Cover", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "Бассейн Green Villa", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Кафе Старая площадь", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Перевернутый дом", "cashbackPercent": 2, "category": "Услуги" },
-  {
-    "partner": "ИП Оздоровительный центр Айкуне",
-    "cashbackPercent": 5,
-    "category": "Услуги"
-  },
-  { "partner": "Button Blue", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "Orient club G", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "ИП VERTIKAL GROUP", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ROSS Beauty Lab",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  {
-    "partner": "Dina Tayau",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "Ресторан Korean House",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  { "partner": "Ocean Basket", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Кафе Бауырсак Khan", "cashbackPercent": 2, "category": "" },
-  { "partner": "Центр Цветов", "cashbackPercent": 4, "category": "Дом и Сад" },
-  { "partner": "Мир одежды", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Кулинария Деликатесы",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "Nika-beauty", "cashbackPercent": 5, "category": "Услуги" },
-  { "partner": "Семейный", "cashbackPercent": 3, "category": "Еда" },
-  {
-    "partner": "Kilem Khan Almaty",
-    "cashbackPercent": 2,
-    "category": "Дом и Сад"
-  },
-  { "partner": "Coffee Print 2016", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Woodland", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Nail Bar Oh, my nails",
+    "title": "ТОО БЕТА и К",
     "cashbackPercent": 7,
-    "category": "Здоровье"
+    "category": "Здоровье",
+    "cardPartner": "default"
   },
   {
-    "partner": "ТОО Damu Clinic",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  { "partner": "ИП ПИТСТОП АВТО", "cashbackPercent": 5, "category": "Авто" },
-  { "partner": "Кафе Арзу", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Carpet Life", "cashbackPercent": 5, "category": "Дом и Сад" },
-  {
-    "partner": "SPA-салон Bliss",
-    "cashbackPercent": 2,
-    "category": "Здоровье"
-  },
-  { "partner": "Нарли", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Магазин Игрушки", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Alfa Flowers 2",
-    "cashbackPercent": 5,
-    "category": "Дом и Сад"
-  },
-  { "partner": "Sansara", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "АС столовая", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Альфада Казахстан",
-    "cashbackPercent": 2,
-    "category": "Дом и Сад"
-  },
-  {
-    "partner": "Фабрика мебели Арман",
-    "cashbackPercent": 2,
-    "category": "Дом и Сад"
-  },
-  { "partner": "Ресторан Кишлак", "cashbackPercent": 10, "category": "Еда" },
-  { "partner": "Rafe", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Шалахо", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Blue cat Coffee", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ТОО Beauty Idea",
-    "cashbackPercent": 10,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "New Smile Dental Clinic",
-    "cashbackPercent": 5,
-    "category": "Здоровье"
-  },
-  { "partner": "Ресторан Cafe Leffe", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Lanzhou", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Graf", "cashbackPercent": 5, "category": "Строительство" },
-  { "partner": "Bal Food", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Antalya Lokum", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ABIK", "cashbackPercent": 5, "category": "Услуги" },
-  { "partner": "Бар Боулинга", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Кафе \"Бирюлька\"", "cashbackPercent": 5, "category": "" },
-  { "partner": "Шашлыкофф", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Черная Борода", "cashbackPercent": 5, "category": "Красота" },
-  { "partner": "Домовая кухня", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Qodeks Quhni",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  { "partner": "Dental Clinic", "cashbackPercent": 2, "category": "Здоровье" },
-  { "partner": "Prima Fieri", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Кафе Жагалау", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "Ювелирный магазин KERUEN",
-    "cashbackPercent": 5,
-    "category": "Одежда и Аксессуары"
-  },
-  { "partner": "Friendly", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Кафе Aurora", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "BeautyClinic IKIGAI",
-    "cashbackPercent": 5,
-    "category": "Красота"
-  },
-  { "partner": "REALIST", "cashbackPercent": 2, "category": "Другие товары" },
-  { "partner": "ИП Рахимова Г.А.", "cashbackPercent": 2, "category": "" },
-  { "partner": "Selfie", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "GM SPORT", "cashbackPercent": 2, "category": "Другие товары" },
-  { "partner": "ИП Мамыр", "cashbackPercent": 20, "category": "Здоровье" },
-  { "partner": "мкр.Алмагуль, д.22", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Магазин Грация Style", "cashbackPercent": 2, "category": "" },
-  { "partner": "Автомаркет Кактус", "cashbackPercent": 3, "category": "Авто" },
-  { "partner": "Ресторан \"Гранат\"", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Складская Бутик 17 \"Империал\" (посуда)",
+    "title": "Бутик модной одежды \"LS\"",
     "cashbackPercent": 3,
-    "category": "Дом и Сад"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "Арзан сотка ТД Астана",
+    "title": "ИП Аузбекова А.А. Бутик Organi Market",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "City Market",
     "cashbackPercent": 2,
-    "category": "Электроника"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "Кафе- бар HESSEN PAB",
+    "title": "Фотосалон Pozitiff",
+    "cashbackPercent": 5,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО АВТОTRAST",
+    "cashbackPercent": 2,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ОйInn",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Шабыс",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин \"Анель\"",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Минимаркет На Мира",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Болотова А.Р. Мужской трикотаж джинсы",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Хадиджа",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "LA DESSERT CAFETERIA",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО КРЕПЕЖСПЕЦСЕРВИС",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кулинария \"Токаш\"",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО \"МиТ Фарм+\"",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Бар Боулинга",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Медицинский центрВаше Сердце",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Автомаркет Кактус",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП \"Сураганов\"",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Модная Леди",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Салон цветов GULDER",
+    "cashbackPercent": 3,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Пучкова Е.А.",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП \"Зайнуллина Ю.И.\"",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "кафе Бонатри",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Клиника Рахат (Жетысу)",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Детский развлекат. центр Activity Park",
+    "cashbackPercent": 4,
+    "category": "Туризм и Отели",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Бутик Сауле ТД Дана",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "АВИАТОР",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "STILNYASHKA",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Стоматология Мастер-Ден",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Сплошной А.Т.",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Какинур",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Семейное кафе Loft",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Golden Moon",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Asteria",
+    "cashbackPercent": 10,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Байтерек",
+    "cashbackPercent": 5,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "МАГАЗИН АКСЕССУАРОВ \"КОНТАКТ\"",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Luxury-1, ИП Кадирова",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Лаунж Бар CRAFT",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Жадыра",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин БОГЕМА",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Химчистка ItalClean",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Химчистка Cleanit.kz",
+    "cashbackPercent": 5,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Бегалиева Г.М.",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Мусли С.В.",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин \"Посуда\"",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Адал-Башмачок",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "центр косметологии Мушрапилова Ирина",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Бекка",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "магазин Арсенал",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Гульдерай",
+    "cashbackPercent": 3,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "МАГАЗИН АКСЕССУАРОВ MEGA IN TEL",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Глория",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Скрипкина Н.А.",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Химчистка Жасмин",
+    "cashbackPercent": 5,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Чернояров Н.В.",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин \"Beluga\"",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Амирали",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "PUDRA",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Multi Тех",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Arlan motors",
+    "cashbackPercent": 5,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин \"Beethoven\"",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Евро Багет",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "#PeiZde$",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Тимофеева И В Бутик Elite Perfume",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Центр Плова",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Cap&Cake",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магнолия",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП \"БОЛЕСТА А.В.\"",
+    "cashbackPercent": 5,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Аптека",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Ашурова",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "кафе Бесбармак",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Голландия Гүлдери",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Fass Bier",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Валович О.А.",
+    "cashbackPercent": 2,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Гостиница \"ДАРКОЛ\"",
+    "cashbackPercent": 10,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Алтын Алка",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Вкусная лавка",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Третьякова И.П.",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе \"Рубин\"",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Cosmos Sushi Bar",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Зоомагазин Прохвост",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ApplePay Sert",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Столовая Red Office",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Таис",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "студия маникуюра Tiara Nails",
+    "cashbackPercent": 5,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Асхана Ыстық",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Favor city view",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Chop - Chop",
+    "cashbackPercent": 10,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Жен.магазин одеждыLuxury,ИПОспанова М",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Грация Style",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "S-clinic - Медицинский центр",
+    "cashbackPercent": 15,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Пивная Заправка",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Beauty gallery VILLA",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Шоурум Ваниль",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Химчистка №1",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Садык А. К.",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Отдел часов Шико бутик 129. ЦУМ.",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО \"Школа Виталогии\"",
+    "cashbackPercent": 5,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "магазин детских товаров Капитошка",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Гранат 2",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Мирзаев А.А.",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе \"Бирюлька\"",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Урустембекова Х.И.",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Сардова О.И.",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП \"Юрьева\" (Атакент)",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Абилхайыров Курмет Манатбекович",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Гостиница МедАмин",
+    "cashbackPercent": 10,
+    "category": "Туризм и Отели",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Auto Shop",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Саенко О.Н. Салон Oksis",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Империал бутик 17",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Сметанкин Е.П. Салон 100 м.2",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин WEST",
+    "cashbackPercent": 2,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Т.Д. Евразия, бутик 1.",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Куприенко",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Диас Фарм",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Екибастузский лечебно-диагностически",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Шапкофф",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан \"Папарации\"",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Rental car ТОО Владекс",
+    "cashbackPercent": 2,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Копирбаева",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Family MARKET",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Нур",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "кафе Корё",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "АГЗС 1",
+    "cashbackPercent": 5,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Promenade Optics",
+    "cashbackPercent": 5,
+    "category": "Одежда и Аксессуары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО N-Royal",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Асхана Ast Food",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Kinderstore Almaty",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Оймақ",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ZakazBuketov.kz Astana",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Антрекот",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "МЕГА ОПТИКА",
+    "cashbackPercent": 5,
+    "category": "Одежда и Аксессуары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Miradoor",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Болашак",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Нагима",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "МИР ОДЕЖДЫ",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Pascucci",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Лайм",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан- кофейня Рибай",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "chickfirst",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Пивной Бар Kruzhka",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Lux автомойка",
+    "cashbackPercent": 2,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Строй. центр Саламат",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Legend Laboratory",
+    "cashbackPercent": 2,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Yavmaline",
+    "cashbackPercent": 5,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Alco Market Atlantic",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Аптека",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Dream Toys",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Академия Единоборств Qazaq Batyry",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Бишкек",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Отдел Ануара, отдел 53 Изюм",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Евразия",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "До Дома",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Dubai Lounge Bar",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин AQ Ai",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО О.Д.М.ФАРМ (Сейфуллина)",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Winchester",
+    "cashbackPercent": 2,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кулинария Деликатесы",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Пицца Нова",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Манты",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "кафе Мимино",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Alfaflowers 2",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Айса",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Гостиница Катон",
+    "cashbackPercent": 2,
+    "category": "Туризм и Отели",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Абылайхан",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Сотовые аксессуары Игровой мир",
+    "cashbackPercent": 2,
+    "category": "Электроника",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Азия Профиль",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "James Burger",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Казфарм-С",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Салон Красоты SAHAR&VOSK",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Столовая Фрикаделька",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Pilots",
+    "cashbackPercent": 2,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "У хавушки",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "магазин косметики Alexa",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Megakids Almaty",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Веранда",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Far-ryh",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Жеты Казан",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Черчил Паб",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Mamas Bazaar",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "аптека ТОО ТОО АЯНА",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Салон красоты KADARIYA",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин COOL",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин DN",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Перевернутый дом",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Little Brazil",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Дамир",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Kiss chocolaterie",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "цветочная студия 25 Rue De Fleur",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Альмансур Group",
+    "cashbackPercent": 2,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "NasH",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "AUTODARSHOP",
+    "cashbackPercent": 5,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ikigai bar&caffe house",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Мини-маркет Кулагер",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Мотоцент",
+    "cashbackPercent": 2,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Жугембаева Л.Т.",
+    "cashbackPercent": 3,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Nazdar",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Столовая ТД Рахмет",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кор Сар",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Рыбачьте с нами",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО ИМЭП",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ММ - Маркет",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "La Rose",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Sumakh",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Aqua+",
+    "cashbackPercent": 5,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "shop.grohe.kz",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Wien Cafe",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Granat",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "No Name Bar",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "магазин Рустем",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "кафе Instacafe",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Zhekas Plov and Doner House",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Невматулина Ф.М. Портмоне",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Best Sport",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Sushi n roll",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Estetik club-2",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Чиполлино",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Гомельчанка",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Муз Культура",
+    "cashbackPercent": 15,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Flirtshop.kz",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Фастфуд Pika pika",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "АВТО НИК",
+    "cashbackPercent": 2,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "магазин Acvelon",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "OneShott Coffee",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "TOP smile",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО АЖТ фарм",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Фирма А Профиль",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО ИнкомСтройПласт - KZ",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Отдел Flourish",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Стоматология «Happy Clinic»",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ramen House",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Bowler Coffee Roasters",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Шанс",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Эко Полигон Астаны",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Kidds",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Отель Керемет",
+    "cashbackPercent": 10,
+    "category": "Туризм и Отели",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Донер Дэрзкий",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Teplo & Voda",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Универмаг 2",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Узбекский Двор №8",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Детский развлекательный центр Alem park",
+    "cashbackPercent": 2,
+    "category": "Развлечения",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Центр эстетической медицины ЕСФИРЬ",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Медицинский центр Tumar Clinic",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Империал",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "АО Гостиничный комплекс Отрар",
+    "cashbackPercent": 5,
+    "category": "Туризм и Отели",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Мир одежды",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "SOZO premium",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Nabi",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "JARooM",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Салон красоты Marafet",
+    "cashbackPercent": 3,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ас Болсын",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Альфа Фуд",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Арзан COTTON",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Beauty Skin",
+    "cashbackPercent": 2,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Neo Laser",
+    "cashbackPercent": 10,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Shay-Pay",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Жасмин",
+    "cashbackPercent": 2,
+    "category": "Электроника",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Ocean Basket",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "магазин Apple Town",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Sun Dew спа салон",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Chim Chi",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Детский досуговый центр Teddy Parking",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Отдел 12 Контейнер",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Алмабекова Н.Ж.",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Monroe Spa Salon",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Top Cover",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Бассейн Green Villa",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Старая площадь",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Перевернутый дом",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Оздоровительный центр Айкуне",
+    "cashbackPercent": 5,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Button Blue",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Orient club G",
+    "cashbackPercent": 2,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП VERTIKAL GROUP",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ROSS Beauty Lab",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Dina Tayau",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Korean House",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ocean Basket",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Бауырсак Khan",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Центр Цветов",
+    "cashbackPercent": 4,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Мир одежды",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кулинария Деликатесы",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Nika-beauty",
+    "cashbackPercent": 5,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Семейный",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Kilem Khan Almaty",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Coffee Print 2016",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Woodland",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Nail Bar Oh, my nails",
+    "cashbackPercent": 7,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Damu Clinic",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП ПИТСТОП АВТО",
+    "cashbackPercent": 5,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Арзу",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Carpet Life",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "SPA-салон Bliss",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Нарли",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Игрушки",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Alfa Flowers 2",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Sansara",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "АС столовая",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Альфада Казахстан",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Фабрика мебели Арман",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Кишлак",
+    "cashbackPercent": 10,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Rafe",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Шалахо",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Blue cat Coffee",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Beauty Idea",
+    "cashbackPercent": 10,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "New Smile Dental Clinic",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Cafe Leffe",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Lanzhou",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Graf",
+    "cashbackPercent": 5,
+    "category": "Строительство",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Bal Food",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Antalya Lokum",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ABIK",
+    "cashbackPercent": 5,
+    "category": "Услуги",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Бар Боулинга",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе \"Бирюлька\"",
+    "cashbackPercent": 5,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Шашлыкофф",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Черная Борода",
+    "cashbackPercent": 5,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Домовая кухня",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Qodeks Quhni",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Dental Clinic",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Prima Fieri",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Жагалау",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ювелирный магазин KERUEN",
+    "cashbackPercent": 5,
+    "category": "Одежда и Аксессуары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Friendly",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Aurora",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "BeautyClinic IKIGAI",
+    "cashbackPercent": 5,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "REALIST",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Рахимова Г.А.",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Selfie",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "GM SPORT",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Мамыр",
+    "cashbackPercent": 20,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "мкр.Алмагуль, д.22",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Грация Style",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Автомаркет Кактус",
+    "cashbackPercent": 3,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан \"Гранат\"",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Складская Бутик 17 \"Империал\" (посуда)",
+    "cashbackPercent": 3,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Арзан сотка ТД Астана",
+    "cashbackPercent": 2,
+    "category": "Электроника",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе- бар HESSEN PAB",
     "cashbackPercent": 2.5,
-    "category": "Еда"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "Данара", "cashbackPercent": 2, "category": "Услуги" },
-  { "partner": "Пекарня", "cashbackPercent": 2, "category": "Еда" },
   {
-    "partner": "Одежда и обувь",
+    "title": "Данара",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Услуги",
+    "cardPartner": "default"
   },
-  { "partner": "Vanity hair", "cashbackPercent": 5, "category": "Красота" },
-  { "partner": "Graf", "cashbackPercent": 5, "category": "Строительство" },
   {
-    "partner": "Автомойка \"10 регион\"",
+    "title": "Пекарня",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Одежда и обувь",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Vanity hair",
+    "cashbackPercent": 5,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Graf",
+    "cashbackPercent": 5,
+    "category": "Строительство",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Автомойка \"10 регион\"",
     "cashbackPercent": 3,
-    "category": "Авто"
+    "category": "Авто",
+    "cardPartner": "default"
   },
   {
-    "partner": "ИП Перминова",
+    "title": "ИП Перминова",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
-  { "partner": "ИП Исмаилов У.Д.", "cashbackPercent": 2, "category": "" },
-  { "partner": "Wake up coffee", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ИП Шаяхметова С.Т.", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Renta Cars", "cashbackPercent": 10, "category": "Авто" },
-  { "partner": "Универмаг", "cashbackPercent": 3, "category": "Другие товары" },
   {
-    "partner": "Изобилие Света",
+    "title": "ИП Исмаилов У.Д.",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "",
+    "cardPartner": "default"
   },
-  { "partner": "Кафе Мята Level", "cashbackPercent": 2, "category": "Еда" },
   {
-    "partner": "Студия штор Florencia",
-    "cashbackPercent": 5,
-    "category": "Другие товары"
-  },
-  { "partner": "teyes.official", "cashbackPercent": 10, "category": "Авто" },
-  {
-    "partner": "Elen Pro Mod",
+    "title": "Wake up coffee",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "Design Deco",
-    "cashbackPercent": 5,
-    "category": "Другие товары"
-  },
-  { "partner": "ИП ANES", "cashbackPercent": 5, "category": "Другие товары" },
-  { "partner": "DS Dent", "cashbackPercent": 5, "category": "Здоровье" },
-  { "partner": "Eleni Viare", "cashbackPercent": 2, "category": "" },
-  { "partner": "ИП Самақ", "cashbackPercent": 2, "category": "Электроника" },
-  { "partner": "Кафе Sadi", "cashbackPercent": 3, "category": "Еда" },
-  { "partner": "Фарм Сервис", "cashbackPercent": 2, "category": "Здоровье" },
-  { "partner": "Магазин Бишкек", "cashbackPercent": 5, "category": "" },
-  {
-    "partner": "ТД \"ЦУМ\" Бутик А52 \"Organiс Market\"",
-    "cashbackPercent": 3,
-    "category": "Красота"
-  },
-  {
-    "partner": "Магазин \"Спектр\"(отдел Бытовая химия)",
+    "title": "ИП Шаяхметова С.Т.",
     "cashbackPercent": 2,
-    "category": "Дом и Сад"
+    "category": "Еда",
+    "cardPartner": "default"
   },
   {
-    "partner": "Автозапчасти \"Gold Авто\"",
-    "cashbackPercent": 5,
-    "category": "Авто"
-  },
-  { "partner": "Sushiman", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "My Line", "cashbackPercent": 2, "category": "Туризм и Отели" },
-  { "partner": "Black Duck", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "МЯТА_KORKEM_premium", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Мята", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Мята Platinum 1 этаж",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "Турист", "cashbackPercent": 5, "category": "Другие товары" },
-  { "partner": "Granada Hall", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "ТОО UNO-BEST",
-    "cashbackPercent": 5,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "Гиппермаркет SMALL бутик Аврора",
-    "cashbackPercent": 2,
-    "category": ""
-  },
-  {
-    "partner": "Ресторан \"Папарации\"",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  {
-    "partner": "Магазин \"Посуда\"",
-    "cashbackPercent": 5,
-    "category": "Дом и Сад"
-  },
-  {
-    "partner": "Планета одежды и обуви",
-    "cashbackPercent": 3,
-    "category": "Одежда и Аксессуары"
-  },
-  { "partner": "Bake and Coffee", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Tomiris", "cashbackPercent": 5, "category": "Другие товары" },
-  {
-    "partner": "Караоке Little Brazil",
-    "cashbackPercent": 5,
-    "category": "Еда"
-  },
-  { "partner": "EM_Cosmetology", "cashbackPercent": 5, "category": "Красота" },
-  { "partner": "HOOKAH DREAMS", "cashbackPercent": 10, "category": "Еда" },
-  {
-    "partner": "7 Emotions",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "ИП Байсалбаева А.Б.",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  { "partner": "Omega Pharm", "cashbackPercent": 2, "category": "Здоровье" },
-  { "partner": "Просто вкусно", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "НаталиТур.KZ", "cashbackPercent": 2, "category": "" },
-  {
-    "partner": "Абсолют Пелле",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  { "partner": "Ресторан \"Глория\"", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Салон одежды \"Oksis\"",
-    "cashbackPercent": 5,
-    "category": "Одежда и Аксессуары"
-  },
-  {
-    "partner": "\"Универмаг\" Рудный",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "Ресторан Hangry Rabbit",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  {
-    "partner": "Parfum De Vie",
+    "title": "Renta Cars",
     "cashbackPercent": 10,
-    "category": "Другие товары"
+    "category": "Авто",
+    "cardPartner": "default"
   },
   {
-    "partner": "Fiftyfifty lucky bar",
+    "title": "Универмаг",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Изобилие Света",
     "cashbackPercent": 2,
-    "category": "Еда"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
-  { "partner": "Meat&Fire", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "HC Coffee", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Stories", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ИП BSM", "cashbackPercent": 5, "category": "Другие товары" },
   {
-    "partner": "Галерея Rivoli",
+    "title": "Кафе Мята Level",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "Апорт", "cashbackPercent": 2, "category": "Другие товары" },
   {
-    "partner": "Ais-Dishes",
+    "title": "Студия штор Florencia",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "teyes.official",
     "cashbackPercent": 10,
-    "category": "Другие товары"
+    "category": "Авто",
+    "cardPartner": "default"
   },
   {
-    "partner": "ТД \"Аврора\"Бутик \"Elite Perfume\"",
-    "cashbackPercent": 3,
-    "category": "Красота"
-  },
-  { "partner": "Лимон", "cashbackPercent": 2, "category": "Еда" },
-  {
-    "partner": "бутик ETEREO",
+    "title": "Elen Pro Mod",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
-  { "partner": "ресторан Tofu", "cashbackPercent": 2, "category": "Еда" },
   {
-    "partner": "Магазин Fitness Line",
+    "title": "Design Deco",
     "cashbackPercent": 5,
-    "category": "Другие товары"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
-  { "partner": "Салон Алима", "cashbackPercent": 2, "category": "Красота" },
-  { "partner": "Nova", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "Albione", "cashbackPercent": 2, "category": "Другие товары" },
   {
-    "partner": "Планета одежды и обуви",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "Karaoke lounge", "cashbackPercent": 15, "category": "Еда" },
-  { "partner": "Лосось", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "IT Most", "cashbackPercent": 2, "category": "Электроника" },
-  {
-    "partner": "ТОО Екибастузский лечебно-диагностически",
+    "title": "ИП ANES",
     "cashbackPercent": 5,
-    "category": "Здоровье"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
   {
-    "partner": "Магазин одежды\"Family MARKET\"",
-    "cashbackPercent": 2,
-    "category": ""
-  },
-  {
-    "partner": "\"Универмаг\" Житикара",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  { "partner": "5 звезд", "cashbackPercent": 2, "category": "Еда" },
-  { "partner": "ИП Chic Nail", "cashbackPercent": 2, "category": "Здоровье" },
-  { "partner": "ТОО ГОЛД АВТО-1", "cashbackPercent": 5, "category": "" },
-  { "partner": "кафе Пещера", "cashbackPercent": 5, "category": "Еда" },
-  { "partner": "Sirius Lounge", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "ИП Мега планета",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "ИП Иронова Г.Ш.",
-    "cashbackPercent": 3,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "кафе The Green Station",
-    "cashbackPercent": 2,
-    "category": "Еда"
-  },
-  {
-    "partner": "Bouticle.kz",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  { "partner": "Цветаева", "cashbackPercent": 2, "category": "Дом и Сад" },
-  { "partner": "Бодрая Сова", "cashbackPercent": 5, "category": "Еда" },
-  {
-    "partner": "Магазин канцтоваров Бобёр",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "Салон штор Адель",
-    "cashbackPercent": 2,
-    "category": "Другие товары"
-  },
-  {
-    "partner": "ИП ПАК Ю.А.",
+    "title": "DS Dent",
     "cashbackPercent": 5,
-    "category": "Другие товары"
+    "category": "Здоровье",
+    "cardPartner": "default"
   },
-  { "partner": "SCHAFER", "cashbackPercent": 2, "category": "Другие товары" },
   {
-    "partner": "BELLEZZA Almaty",
+    "title": "Eleni Viare",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Самақ",
+    "cashbackPercent": 2,
+    "category": "Электроника",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Sadi",
+    "cashbackPercent": 3,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Фарм Сервис",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Бишкек",
+    "cashbackPercent": 5,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТД \"ЦУМ\" Бутик А52 \"Organiс Market\"",
+    "cashbackPercent": 3,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин \"Спектр\"(отдел Бытовая химия)",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Автозапчасти \"Gold Авто\"",
+    "cashbackPercent": 5,
+    "category": "Авто",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Sushiman",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "My Line",
+    "cashbackPercent": 2,
+    "category": "Туризм и Отели",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Black Duck",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "МЯТА_KORKEM_premium",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Мята",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Мята Platinum 1 этаж",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Турист",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Granada Hall",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО UNO-BEST",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Гиппермаркет SMALL бутик Аврора",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан \"Папарации\"",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин \"Посуда\"",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Планета одежды и обуви",
+    "cashbackPercent": 3,
+    "category": "Одежда и Аксессуары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Bake and Coffee",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Tomiris",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Караоке Little Brazil",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "EM_Cosmetology",
+    "cashbackPercent": 5,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "HOOKAH DREAMS",
     "cashbackPercent": 10,
-    "category": "Одежда и Аксессуары"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "Зиеш Ана", "cashbackPercent": 2, "category": "Дом и Сад" },
-  { "partner": "Кафе Умит", "cashbackPercent": 5, "category": "Еда" },
   {
-    "partner": "Магазин канцтоваров Бобёр",
+    "title": "7 Emotions",
     "cashbackPercent": 2,
-    "category": "Другие товары"
+    "category": "Другие товары",
+    "cardPartner": "default"
   },
   {
-    "partner": "Салон \"100М2\" (ковровые изделия)",
+    "title": "ИП Байсалбаева А.Б.",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Omega Pharm",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Просто вкусно",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "НаталиТур.KZ",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Абсолют Пелле",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан \"Глория\"",
     "cashbackPercent": 5,
-    "category": "Дом и Сад"
+    "category": "Еда",
+    "cardPartner": "default"
   },
-  { "partner": "ТОО Azimut Travel", "cashbackPercent": 2, "category": "" },
-  { "partner": "ТОО ВСЕ KZ", "cashbackPercent": 2, "category": "Еда" },
   {
-    "partner": "ИП ТУРГЫНБАЕВА САРА",
+    "title": "Салон одежды \"Oksis\"",
+    "cashbackPercent": 5,
+    "category": "Одежда и Аксессуары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "\"Универмаг\" Рудный",
     "cashbackPercent": 3,
-    "category": "Дом и Сад"
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ресторан Hangry Rabbit",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Parfum De Vie",
+    "cashbackPercent": 10,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Fiftyfifty lucky bar",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Meat&Fire",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "HC Coffee",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Stories",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП BSM",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Галерея Rivoli",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Апорт",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Ais-Dishes",
+    "cashbackPercent": 10,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТД \"Аврора\"Бутик \"Elite Perfume\"",
+    "cashbackPercent": 3,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Лимон",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "бутик ETEREO",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ресторан Tofu",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин Fitness Line",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Салон Алима",
+    "cashbackPercent": 2,
+    "category": "Красота",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Nova",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Albione",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Планета одежды и обуви",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Karaoke lounge",
+    "cashbackPercent": 15,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Лосось",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "IT Most",
+    "cashbackPercent": 2,
+    "category": "Электроника",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Екибастузский лечебно-диагностически",
+    "cashbackPercent": 5,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин одежды\"Family MARKET\"",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "\"Универмаг\" Житикара",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "5 звезд",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Chic Nail",
+    "cashbackPercent": 2,
+    "category": "Здоровье",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО ГОЛД АВТО-1",
+    "cashbackPercent": 5,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "кафе Пещера",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Sirius Lounge",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Мега планета",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП Иронова Г.Ш.",
+    "cashbackPercent": 3,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "кафе The Green Station",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Bouticle.kz",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Цветаева",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Бодрая Сова",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин канцтоваров Бобёр",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Салон штор Адель",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП ПАК Ю.А.",
+    "cashbackPercent": 5,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "SCHAFER",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "BELLEZZA Almaty",
+    "cashbackPercent": 10,
+    "category": "Одежда и Аксессуары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Зиеш Ана",
+    "cashbackPercent": 2,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Кафе Умит",
+    "cashbackPercent": 5,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Магазин канцтоваров Бобёр",
+    "cashbackPercent": 2,
+    "category": "Другие товары",
+    "cardPartner": "default"
+  },
+  {
+    "title": "Салон \"100М2\" (ковровые изделия)",
+    "cashbackPercent": 5,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО Azimut Travel",
+    "cashbackPercent": 2,
+    "category": "",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ТОО ВСЕ KZ",
+    "cashbackPercent": 2,
+    "category": "Еда",
+    "cardPartner": "default"
+  },
+  {
+    "title": "ИП ТУРГЫНБАЕВА САРА",
+    "cashbackPercent": 3,
+    "category": "Дом и Сад",
+    "cardPartner": "default"
   }
 ]

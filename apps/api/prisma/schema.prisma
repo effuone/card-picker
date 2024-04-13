@@ -8,38 +8,58 @@ datasource db {
 }
 
 model User {
-  id                        Int             @id @default(autoincrement())
+  id                        Int          @id @default(autoincrement())
   name                      String
   surname                   String
-  email                     String          @unique
-  phone                     String          @unique
+  email                     String       @unique
+  phone                     String       @unique
   passwordHash              String
   currentHashedRefreshToken String?
-  BankCard                  BankCard[]
-  CashbackOffer             CashbackOffer[]
+  UsersCards                UsersCards[]
 
   @@map("users")
 }
 
-model BankCard {
-  id       Int    @id @default(autoincrement())
-  bankName String // e.g., "Halyk Bank"
-  cardType String // e.g., "Halyk Platinum"
-  userId   Int
-  User     User   @relation(fields: [userId], references: [id])
+model Bank {
+  id            Int            @id @default(autoincrement())
+  name          String
+  BankCardTypes BankCardType[]
+}
 
-  @@map("bankCards")
+model BankCardType {
+  id             Int             @id @default(autoincrement())
+  name           String
+  bankId         Int
+  Bank           Bank            @relation(fields: [bankId], references: [id])
+  UsersCards     UsersCards[]
+  CashbackOffers CashbackOffer[]
+}
+
+model UsersCards {
+  userId       Int
+  cardTypeId   Int
+  User         User         @relation(fields: [userId], references: [id])
+  BankCardType BankCardType @relation(fields: [cardTypeId], references: [id])
+
+  @@id([userId, cardTypeId])
+}
+
+model Partner {
+  id             Int             @id @default(autoincrement())
+  name           String
+  image          String?
+  address        String?
+  description    String?
+  CashbackOffers CashbackOffer[]
 }
 
 model CashbackOffer {
-  id              Int      @id @default(autoincrement())
-  bankName        String // e.g., "Kaspi Bank"
-  category        String // e.g., "Супермаркеты" 
-  cashbackPercent Float // e.g., 3.5 (percent)
-  expiryDate      DateTime // e.g., 2024-12-31T00:00:00Z
-  restrictions    String[] // e.g., "Только по будням"/"Мин. покупка 5000 тенге" 
-  userId          Int
-  User            User     @relation(fields: [userId], references: [id])
-
-  @@map("cashbackOffers")
+  id              Int          @id @default(autoincrement())
+  partnerId       Int
+  cardTypeId      Int
+  cashbackPercent Int
+  requirements    String?
+  offerEndDate    DateTime?
+  Partner         Partner      @relation(fields: [partnerId], references: [id])
+  BankCardType    BankCardType @relation(fields: [cardTypeId], references: [id])
 }

@@ -1,10 +1,10 @@
-import { ReactNode, useMemo } from 'react';
-import { createContext } from 'react';
-import { useNavigate } from 'react-router-dom';
-import backendApiInstance from '@/services';
-import AuthInterceptor from './auth.interceptor';
-import { useLocalStorage } from '../hooks/useLocalStorage';
-import { LoginData, RegistrationData, UserData } from './auth.types';
+import { ReactNode, useMemo } from "react";
+import { createContext } from "react";
+import { useNavigate } from "react-router-dom";
+import backendApiInstance from "@/services";
+import AuthInterceptor from "./auth.interceptor";
+import { useLocalStorage } from "../hooks/useLocalStorage";
+import { LoginData, RegistrationData, UserData } from "./auth.types";
 
 interface AuthContextType {
   user: UserData | null;
@@ -22,41 +22,41 @@ type Props = {
 const AuthContext = createContext<AuthContextType | null>(null);
 
 const AuthProvider = ({ children }: Props) => {
-  const [user, setUser] = useLocalStorage('user', null);
+  const [user, setUser] = useLocalStorage("user", null);
   const navigate = useNavigate();
 
   const register = async (
-    registrationData: RegistrationData
+    registrationData: RegistrationData,
   ): Promise<UserData> => {
     const response = await backendApiInstance.post(
-      '/auth/register',
-      registrationData
+      "/auth/register",
+      registrationData,
     );
     setUser(response.data);
-    navigate('/roadmap');
+    navigate("/cards");
     return response.data;
   };
 
   const login = async (loginData: LoginData): Promise<UserData> => {
-    const response = await backendApiInstance.post('/auth/login', loginData);
+    const response = await backendApiInstance.post("/auth/login", loginData);
     setUser(response.data);
-    navigate('/roadmap');
+    navigate("/cards");
     return response.data;
   };
 
   const refresh = async (): Promise<void> => {
-    await backendApiInstance.get('/auth/refresh');
+    await backendApiInstance.get("/auth/refresh");
   };
 
   const getProfile = async (): Promise<UserData> => {
-    const response = await backendApiInstance.get('/auth/me');
+    const response = await backendApiInstance.get("/auth/me");
     return response.data;
   };
 
   const logout = async (): Promise<void> => {
-    await backendApiInstance.post('/auth/logout');
+    await backendApiInstance.post("/auth/logout");
     setUser(null);
-    navigate('/auth', { replace: true });
+    navigate("/auth", { replace: true });
   };
 
   AuthInterceptor(backendApiInstance, logout, refresh);
@@ -70,7 +70,7 @@ const AuthProvider = ({ children }: Props) => {
       getProfile,
       refresh,
     }),
-    [user]
+    [user],
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

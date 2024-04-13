@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -7,8 +7,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/components/ui/dialog';
-import { Label } from '@/components/ui/label';
+} from "@/components/ui/dialog";
+import { Label } from "@/components/ui/label";
 import {
   Select,
   SelectContent,
@@ -17,28 +17,28 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from './ui/select';
-import { useEffect, useState } from 'react';
-import { Controller, useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { z } from 'zod';
-import { toast } from './ui/use-toast';
+} from "./ui/select";
+import { useEffect, useState } from "react";
+import { Controller, useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
+import { toast } from "./ui/use-toast";
 
 const cardTypes = [
-  { bank: 'BCC', cardTypes: ['#картакарта', '#ironcard', 'juniorcard'] },
+  { bank: "BCC", cardTypes: ["#картакарта", "#ironcard", "juniorcard"] },
   {
-    bank: 'Halyk',
+    bank: "Halyk",
     cardTypes: [
-      'Halyk Bonus Digital Card',
-      'Halyk Bonus',
-      'Sinooil Digital Card',
-      'Black Card',
-      'Diamond Card',
+      "Halyk Bonus Digital Card",
+      "Halyk Bonus",
+      "Sinooil Digital Card",
+      "Black Card",
+      "Diamond Card",
     ],
   },
   {
-    bank: 'Forte',
-    cardTypes: ['Travel', 'Blue', 'Black', 'Solo', 'Детская карта Forte'],
+    bank: "Forte",
+    cardTypes: ["Travel", "Blue", "Black", "Solo", "Детская карта Forte"],
   },
 ];
 
@@ -58,7 +58,7 @@ export function CreateCardModal() {
     resolver: zodResolver(formSchema),
   });
 
-  const selectedBank = watch('bank');
+  const selectedBank = watch("bank");
   const [availableCardTypes, setAvailableCardTypes] = useState<string[]>([]);
 
   useEffect(() => {
@@ -68,7 +68,7 @@ export function CreateCardModal() {
 
   const onSubmit = (data) => {
     toast({
-      title: 'Новая карта успешно добавлена!',
+      title: "Новая карта успешно добавлена!",
       description: `Вы добавили себе новую ${data.cardType} карту от ${data.bank}.`,
     });
     setOpen(false);
@@ -77,7 +77,14 @@ export function CreateCardModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline">Добавить новую карту</Button>
+        <div className="flex gap-3.5 mt-1.5 justify-center items-center cursor-pointer">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/545e39e9e8ebb3028588c35136b5caae49792f6300bb42db5994d2dcc58b4e68?"
+            className="shrink-0 w-4 aspect-square"
+          />
+          <div className="hidden md:block">Мои карты</div>
+        </div>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>

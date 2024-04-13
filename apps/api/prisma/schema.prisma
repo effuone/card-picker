@@ -66,6 +66,7 @@ model CashbackOffer {
   partnerId       Int
   cardTypeId      Int
   cashbackPercent Int
+  discountPercent Int?
   requirements    String?
   offerEndDate    DateTime?
   Partner         Partner      @relation(fields: [partnerId], references: [id])

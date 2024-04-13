@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                        Int             @id @default(autoincrement())
+  name                      String
+  surname                   String
+  email                     String          @unique
+  phone                     String          @unique
+  passwordHash              String
+  currentHashedRefreshToken String?
+  BankCard                  BankCard[]
+  CashbackOffer             CashbackOffer[]
+
+  @@map("users")
+}
+
+model BankCard {
+  id       Int    @id @default(autoincrement())
+  bankName String // e.g., "Halyk Bank"
+  cardType String // e.g., "Halyk Platinum"
+  userId   Int
+  User     User   @relation(fields: [userId], references: [id])
+
+  @@map("bankCards")
+}
+
+model CashbackOffer {
+  id              Int      @id @default(autoincrement())
+  bankName        String // e.g., "Kaspi Bank"
+  category        String // e.g., "Супермаркеты" 
+  cashbackPercent Float // e.g., 3.5 (percent)
+  expiryDate      DateTime // e.g., 2024-12-31T00:00:00Z
+  restrictions    String[] // e.g., "Только по будням"/"Мин. покупка 5000 тенге" 
+  userId          Int
+  User            User     @relation(fields: [userId], references: [id])
+
+  @@map("cashbackOffers")
+}

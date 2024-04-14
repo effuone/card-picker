@@ -20,6 +20,10 @@ const cardTypes = [
     bank: 'Forte',
     cardTypes: ['Travel', 'Blue', 'Black', 'Solo', 'Детская карта Forte'],
   },
+  {
+    bank: 'Kaspi',
+    cardTypes: ['Kaspi Gold'],
+  },
 ];
 
 const categories = [
@@ -65,6 +69,9 @@ async function main() {
       });
     }
   }
+  const kaspiGoldType = await prisma.bankCardType.findFirst({
+    where: { name: 'Kaspi Gold' },
+  });
   // Create categories
   for (const category of categories) {
     await prisma.categories.create({
@@ -103,6 +110,15 @@ async function main() {
         cashbackPercent: item.cashback,
         discountPercent: item.discountPercent,
         requirements: item.requirements,
+      },
+    });
+    await prisma.cashbackOffer.create({
+      data: {
+        partnerId: partner.id,
+        cardTypeId: kaspiGoldType.id,
+        cashbackPercent: 0.5,
+        discountPercent: item.discountPercent,
+        requirements: '- при оплате QR и смартфоном ',
       },
     });
   }

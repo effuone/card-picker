@@ -9,20 +9,30 @@ const cardTypes = [
   {
     bank: 'Halyk',
     cardTypes: [
-      'Halyk Bonus Digital Card',
+      'Halyk Bonus Digital',
       'Halyk Bonus',
-      'Sinooil Digital Card',
-      'Black Card',
-      'Diamond Card',
+      'Halyk Sinooil Digital',
+      'Halyk Black',
+      'Halyk Diamond',
     ],
   },
   {
     bank: 'Forte',
-    cardTypes: ['Travel', 'Blue', 'Black', 'Solo', 'Детская карта Forte'],
+    cardTypes: [
+      'Forte Travel',
+      'Forte Blue',
+      'Forte Black',
+      'Forte Solo',
+      'Детская карта Forte',
+    ],
   },
   {
     bank: 'Kaspi',
     cardTypes: ['Kaspi Gold'],
+  },
+  {
+    bank: 'Jusan',
+    cardTypes: ['Jusan Silver'],
   },
 ];
 
@@ -72,6 +82,9 @@ async function main() {
   const kaspiGoldType = await prisma.bankCardType.findFirst({
     where: { name: 'Kaspi Gold' },
   });
+  const jusanSilverType = await prisma.bankCardType.findFirst({
+    where: { name: 'Jusan Silver' },
+  });
   // Create categories
   for (const category of categories) {
     await prisma.categories.create({
@@ -117,7 +130,16 @@ async function main() {
         partnerId: partner.id,
         cardTypeId: kaspiGoldType.id,
         cashbackPercent: 0.5,
-        discountPercent: item.discountPercent,
+        discountPercent: 0,
+        requirements: '- при оплате QR и смартфоном ',
+      },
+    });
+    await prisma.cashbackOffer.create({
+      data: {
+        partnerId: partner.id,
+        cardTypeId: jusanSilverType.id,
+        cashbackPercent: 0.5,
+        discountPercent: 0,
         requirements: '- при оплате QR и смартфоном ',
       },
     });

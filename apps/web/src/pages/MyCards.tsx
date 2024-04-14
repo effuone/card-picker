@@ -80,6 +80,7 @@ const getCashbackColor = (cashback) => {
 };
 
 const CatalogCard: FC<CatalogCardProps> = ({
+  id,
   cashback,
   discount,
   shop,

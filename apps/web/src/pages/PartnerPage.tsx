@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import backendApiInstance from "@/services";
 import { FC, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 
 const cardColors = {
   "Halyk Bonus Digital": "halyk",
@@ -72,11 +73,13 @@ type HeaderProps = {
 }
 
 const Header: FC<HeaderProps> = ({title}) => {
+  const navitage = useNavigate();
+
   return (
     <div className="flex flex-col justify-center text-white bg-white">
       <div className="flex flex-col items-center px-8 pt-8 pb-12 w-full bg-neutral-800 max-md:px-5 max-md:max-w-full">
         <div className="flex gap-5 justify-between self-stretch w-full font-medium max-md:flex-wrap max-md:max-w-full">
-          <div className="flex gap-3.5 self-start mt-1.5 text-lg mb-2 md:my-0">
+          <div onClick={() => navitage("/cards")} className="flex gap-3.5 self-start mt-1.5 text-lg mb-2 md:my-0">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/901d761b9c58bd0762cd5dde3bd43181a63ddbb74d991a4044ba91512ff25e36?"

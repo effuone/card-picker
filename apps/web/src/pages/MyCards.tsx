@@ -1,41 +1,41 @@
-import { CardCustom } from '@/components/card-custom';
-import CreateCardModal from '@/components/create-card-modal';
-import HalykBonus from '@/components/halyk-bonus';
+import { CardCustom } from "@/components/card-custom";
+import CreateCardModal from "@/components/create-card-modal";
+import HalykBonus from "@/components/halyk-bonus";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/components/ui/carousel';
-import { Input } from '@/components/ui/input';
-import { useScreenDetector } from '@/lib/hooks/useScreenDetector';
-import backendApiInstance from '@/services';
-import { FC, useEffect, useState } from 'react';
+} from "@/components/ui/carousel";
+import { Input } from "@/components/ui/input";
+import { useScreenDetector } from "@/lib/hooks/useScreenDetector";
+import backendApiInstance from "@/services";
+import { FC, useEffect, useState } from "react";
 
 const cards = [
   {
-    bankName: 'Forte Bank',
-    color: 'forte',
-    cardName: 'Blue',
+    bankName: "Forte Bank",
+    color: "forte",
+    cardName: "Blue",
     isVisa: false,
   },
   {
-    bankName: 'Bank CreditCredit',
-    color: 'bcc',
-    cardName: '#картакарта',
+    bankName: "Bank CreditCredit",
+    color: "bcc",
+    cardName: "#картакарта",
     isVisa: true,
   },
   {
-    bankName: 'Halyk Bank',
-    color: 'halyk',
-    cardName: 'Halyk Bonus Digital Card',
+    bankName: "Halyk Bank",
+    color: "halyk",
+    cardName: "Halyk Bonus Digital Card",
     isVisa: true,
   },
   {
-    bankName: 'Bank CreditCredit',
-    color: 'bcc',
-    cardName: '#ironcard',
+    bankName: "Bank CreditCredit",
+    color: "bcc",
+    cardName: "#ironcard",
     isVisa: true,
   },
 ];
@@ -72,9 +72,9 @@ type CatalogCardProps = {
 };
 
 const getCashbackColor = (cashback) => {
-  if (cashback >= 5) return 'bg-green-600'; // Green for high cashback
-  if (cashback >= 3) return 'bg-yellow-500'; // Yellow for medium cashback
-  return 'bg-red-400'; // Red for low cashback
+  if (cashback >= 5) return "bg-green-600"; // Green for high cashback
+  if (cashback >= 3) return "bg-yellow-500"; // Yellow for medium cashback
+  return "bg-red-400"; // Red for low cashback
 };
 
 const CatalogCard: FC<CatalogCardProps> = ({
@@ -92,59 +92,43 @@ const CatalogCard: FC<CatalogCardProps> = ({
   const cashbackClass = getCashbackColor(cashback);
 
   return (
-    <div className="flex flex-col gap-0.5rem items-start pt-1rem pl-1.25rem rounded-xl shadow-sm bg-white">
-      <div className="flex flex-col flex-grow w-full max-w-xs">
-        <div className="text-1.5rem font-bold text-neutral-800">{shop}</div>
-        {address && (
-          <div className="text-1rem text-neutral-600 overflow-hidden">
-            {address}
-          </div>
-        )}
-        {description && (
-          <div className="text-1rem text-neutral-500 mt-0.25rem">
-            {description}
-          </div>
-        )}
-        <div className="text-0.75rem text-neutral-400">
-          Category: {category}
+    <div className="flex flex-col rounded-[8px] border-[1px] p-6 w-[300px] shadow-sm max-md:w-full max-md:mb-4 justify-between gap-5">
+      <div>
+        <div className="font-bold text-base">{shop}</div>
+        {address && <div className="text-neutral-400">{address}</div>}
+        {description && <div className="text-neutral-400">{description}</div>}
+      </div>
+
+      <div>
+        <div>
+          <strong>Категория:</strong> {category}
         </div>
         {requirements && (
-          <div className="text-0.75rem text-red-500">
-            Requirements: {requirements}
+          <div>
+            <strong>Условия:</strong> <br /> {requirements}
           </div>
         )}
-        {offerEndDate && (
-          <div className="text-0.75rem text-blue-500">
-            Offer Ends: {offerEndDate}
-          </div>
-        )}
-        <div className="flex justify-between items-center mt-0.5rem">
-          {cashback > 0 && (
-            <div
-              className={`px-0.625rem py-0.25rem text-0.75rem text-white ${cashbackClass} rounded-md`}
-            >
-              {cashback}% cashback
-            </div>
-          )}
-          {discount > 0 && (
-            <div className="px-0.625rem py-0.25rem text-0.75rem text-white bg-blue-600 rounded-md">
-              Discount up to {discount}%
-            </div>
-          )}
-          {cardType === 'Halyk Bonus' ? (
-            <HalykBonus />
-          ) : (
-            <div className="text-0.5rem text-gray-500">{cardType}</div>
-          )}
-        </div>
       </div>
-      {/* Image section can also use relative sizing if you uncomment it later */}
-      {/* <img
-    loading="lazy"
-    src={image || 'https://i.imgur.com/Ok4sxNV.png'} // Fallback image if none provided
-    alt={shop}
-    className="shrink-0 self-start w-full max-w-xs aspect-square" // using aspect-square for a 1:1 aspect ratio, adjust as needed
-  /> */}
+
+      <div>
+        {cashback > 0 && (
+          <div
+            className={`px-3 py-2 text-white ${cashbackClass} rounded-md !w-fit mb-1`}
+          >
+            {cashback}% cashback
+          </div>
+        )}
+        {discount > 0 && (
+          <div className="px-3 py-2 text-white bg-blue-600 rounded-md !w-fit">
+            Discount up to {discount}%
+          </div>
+        )}
+        {cardType === "Halyk Bonus" ? (
+          <HalykBonus/>
+        ) : (
+          <div className="text-0.5rem text-gray-500">{cardType}</div>
+        )}
+      </div>
     </div>
   );
 };
@@ -179,7 +163,7 @@ const fetchPartners = async (cardType, categoryId, search, page, pageSize) => {
     });
     return response.data;
   } catch (error) {
-    console.error('Error fetching partners', error);
+    console.error("Error fetching partners", error);
     return [];
   }
 };
@@ -188,12 +172,12 @@ const MyCardsPage: FC = () => {
   const { isMobile } = useScreenDetector();
 
   const [partners, setPartners] = useState<Partner[]>([]);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchPartners(
-        'Halyk Bonus',
+        "Halyk Bonus",
         undefined,
         searchTerm,
         1,
@@ -219,7 +203,7 @@ const MyCardsPage: FC = () => {
       <div className="flex flex-col md:flex-row space-between md:pl-[50px]">
         <div className="md:w-[290px] bg-white flex md:justify-center max-md:mx-[60px] md:mt-14">
           <Carousel
-            orientation={isMobile ? 'horizontal' : 'vertical'}
+            orientation={isMobile ? "horizontal" : "vertical"}
             className="mt-14 h-[70vh] w-[300px] mx-auto max-md:mt-0 max-md:w-full max-md:h-full md:mt-6 md:h-[60vh]"
           >
             <CarouselContent className="-mt-1 gap-5 md:h-[70vh]">
@@ -260,7 +244,7 @@ const MyCardsPage: FC = () => {
                       <CatalogCard
                         key={partner.id}
                         image={
-                          partner.image || 'https://i.imgur.com/Ok4sxNV.png'
+                          partner.image || "https://i.imgur.com/Ok4sxNV.png"
                         } // Default image if none
                         cashback={partner.cashbackPercent}
                         discount={partner.discountPercent}

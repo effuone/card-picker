@@ -94,7 +94,7 @@ const CatalogCard: FC<CatalogCardProps> = ({
   const navitage = useNavigate();
 
   return (
-    <div onClick={() => navitage(`/partner/${id}`)} className="flex flex-col rounded-[8px] border-[1px] p-6 w-[300px] shadow-sm max-md:w-full max-md:mb-4 justify-between gap-5">
+    <div onClick={() => navitage(`/partner/${id}`)} className="flex flex-col rounded-[8px] border-[1px] p-6 w-[300px] shadow-sm max-md:w-full max-md:mb-4 justify-between gap-5 hover:cursor-pointer">
       <div>
         <div className="font-bold text-base">{shop}</div>
         {address && <div className="text-neutral-400">{address}</div>}

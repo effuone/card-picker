@@ -12,6 +12,7 @@ import { Input } from "@/components/ui/input";
 import { useScreenDetector } from "@/lib/hooks/useScreenDetector";
 import backendApiInstance from "@/services";
 import { FC, useEffect, useState } from "react";
+import { useNavigate } from 'react-router-dom'
 
 const cards = [
   {
@@ -79,6 +80,7 @@ const getCashbackColor = (cashback) => {
 
 const CatalogCard: FC<CatalogCardProps> = ({
   image,
+  id,
   cashback,
   discount,
   shop,
@@ -90,9 +92,10 @@ const CatalogCard: FC<CatalogCardProps> = ({
   cardType,
 }) => {
   const cashbackClass = getCashbackColor(cashback);
+  const navitage = useNavigate();
 
   return (
-    <div className="flex flex-col rounded-[8px] border-[1px] p-6 w-[300px] shadow-sm max-md:w-full max-md:mb-4 justify-between gap-5">
+    <div onClick={() => navitage(`/partner/${id}`)} className="flex flex-col rounded-[8px] border-[1px] p-6 w-[300px] shadow-sm max-md:w-full max-md:mb-4 justify-between gap-5">
       <div>
         <div className="font-bold text-base">{shop}</div>
         {address && <div className="text-neutral-400">{address}</div>}
@@ -246,6 +249,7 @@ const MyCardsPage: FC = () => {
                         image={
                           partner.image || "https://i.imgur.com/Ok4sxNV.png"
                         } // Default image if none
+                        id={partner.id}
                         cashback={partner.cashbackPercent}
                         discount={partner.discountPercent}
                         shop={partner.name}

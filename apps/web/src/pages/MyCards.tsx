@@ -222,9 +222,12 @@ const MyCardsPage: FC = () => {
             orientation={isMobile ? 'horizontal' : 'vertical'}
             className="mt-14 h-[70vh] w-[300px] mx-auto max-md:mt-0 max-md:w-full max-md:h-full md:mt-6 md:h-[60vh]"
           >
-            <CarouselContent className="-mt-1 gap-5">
+            <CarouselContent className="-mt-1 gap-5 md:h-[70vh]">
               {cards.map((сard) => (
-                <CarouselItem key={сard.cardName} className="pt-1 md:basis-1/3">
+                <CarouselItem
+                  key={сard.cardName}
+                  className="pt-0 md:pt-1 md:basis-[calc(33.333%-10px)] h-[180px] md:h-[170px]"
+                >
                   <CardCustom
                     bankName={сard.bankName}
                     color={сard.color}

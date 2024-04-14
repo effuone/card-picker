@@ -36,6 +36,7 @@ const categories = [
   'Строительные материалы',
   'Товары премиум-класса',
   'Электроника',
+  'Интернет магазины',
 ];
 
 const filePath = path.join(__dirname, './data/seed.json');
@@ -91,6 +92,7 @@ async function main() {
         name: item.partner,
         description: item.description,
         categoryId: category.id,
+        address: item.address,
       },
     });
 
@@ -100,6 +102,7 @@ async function main() {
         cardTypeId: cardType.id,
         cashbackPercent: item.cashback,
         discountPercent: item.discountPercent,
+        requirements: item.requirements,
       },
     });
   }

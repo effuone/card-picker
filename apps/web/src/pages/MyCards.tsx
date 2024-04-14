@@ -60,6 +60,7 @@ type HeaderProps = {
 };
 
 type CatalogCardProps = {
+  id: number;
   image: string;
   cashback: number;
   discount: number;
@@ -79,8 +80,6 @@ const getCashbackColor = (cashback) => {
 };
 
 const CatalogCard: FC<CatalogCardProps> = ({
-  image,
-  id,
   cashback,
   discount,
   shop,
@@ -88,7 +87,6 @@ const CatalogCard: FC<CatalogCardProps> = ({
   category,
   address,
   requirements,
-  offerEndDate,
   cardType,
 }) => {
   const cashbackClass = getCashbackColor(cashback);

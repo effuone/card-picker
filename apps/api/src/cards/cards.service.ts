@@ -12,17 +12,6 @@ export class CardsService {
     page: number = 1,
     pageSize: number = 10,
   ) {
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-    Logger.log(pageSize);
-
     const cardType = await this.databaseService.bankCardType.findFirst({
       where: { name: cardTypeName },
     });

@@ -22,7 +22,7 @@ export const CardCustom: React.FC<CardCustomProps> = ({
 
   return (
     <div
-      className={`flex flex-col px-5 pt-6 pb-12 rounded-xl ${colors[color]} w-[290px] md:w-[300px] h-[180px]`}
+      className={`flex flex-col px-5 pt-6 pb-12 rounded-xl ${colors[color]} w-full min-w-[290px] md:w-[300px] !h-full h-[180px]`}
     >
       <div className="flex gap-5 text-2xl font-bold text-white">
         <div className="flex-auto">{bankName}</div>

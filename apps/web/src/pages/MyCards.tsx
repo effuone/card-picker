@@ -38,6 +38,10 @@ const cards = [
   },
 ];
 
+type HeaderProps = {
+  isMainPage?: boolean;
+};
+
 const CatalogCard: FC<{ image: string; cashback: number; shop: string }> = ({
   image,
   cashback,
@@ -60,19 +64,23 @@ const CatalogCard: FC<{ image: string; cashback: number; shop: string }> = ({
   );
 };
 
-const Header: FC = () => {
+const Header: FC<HeaderProps> = ({ isMainPage = false }) => {
   return (
-    <div className="flex flex-col justify-center text-lg font-medium text-white bg-white">
-      <div className="flex justify-between gap-5 items-center md:items-start px-8 py-9 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
-        <div className="flex gap-3.5 mt-1.5 justify-center items-center cursor-pointer">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/901d761b9c58bd0762cd5dde3bd43181a63ddbb74d991a4044ba91512ff25e36?"
-            className="shrink-0 w-2 aspect-[0.44] fill-white"
-          />
-          <div className="hidden md:block">Выйти</div>
+    <div className="flex flex-col justify-center text-lg font-medium text-white bg-white max-md:text-neutral-800">
+      <div className="flex justify-between gap-5 items-center md:items-start px-8 py-9 w-full bg-neutral-800 max-md:bg-white  max-md:flex-wrap max-md:px-[30px] max-md:py-6 max-md:max-w-full">
+        {!isMainPage && (
+          <div className="flex gap-3.5 mt-1.5 justify-center items-center cursor-pointer">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/901d761b9c58bd0762cd5dde3bd43181a63ddbb74d991a4044ba91512ff25e36?"
+              className="shrink-0 w-2 aspect-[0.44] fill-white"
+            />
+            <div className="hidden md:block">Выйти</div>
+          </div>
+        )}
+        <div className="text-4xl font-bold text-center max-md:text-2xl max-md:text-left">
+          CardPicker
         </div>
-        <div className="text-4xl font-bold text-center">CardPicker</div>
         <CreateCardModal />
       </div>
     </div>
@@ -142,14 +150,14 @@ const MyCardsPage: FC = () => {
 
   return (
     <>
-      <Header />
+      <Header isMainPage={true} />
       <div className="flex flex-col md:flex-row space-between md:pl-[50px]">
-        <div className="md:w-[290px] bg-[#F2F2F2] md:h-dvh flex md:justify-center ">
+        <div className="md:w-[290px] bg-white flex md:justify-center max-md:mx-[60px] md:mt-14">
           <Carousel
             orientation={isMobile ? "horizontal" : "vertical"}
-            className="md:h-[600px] mt-14 h-[270px] w-[300px] mx-auto"
+            className="mt-14 h-[70vh] w-[300px] mx-auto max-md:mt-0 max-md:w-full max-md:h-full md:mt-6 md:h-[60vh]"
           >
-            <CarouselContent className="-mt-1 md:h-[590px]">
+            <CarouselContent className="-mt-1 gap-5">
               {cards.map((сard) => (
                 <CarouselItem key={сard.cardName} className="pt-1 md:basis-1/3">
                   <CardCustom

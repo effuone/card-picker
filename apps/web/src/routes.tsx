@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 import AuthPage from './pages/AuthPage';
 import MyCardsPage from './pages/MyCards';
+import AddCard from './pages/AddCard';
 
 const DefaultRoute = () => {
   const user = useAuth()?.user;
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<DefaultRoute />} />
       <Route path={'/auth'} element={<AuthPage />} />
       <Route path={'/cards'} element={<MyCardsPage />} />
+      {/* <Route path={'/add-card'} element={<AddCard />} /> */}
     </Route>
   )
 );

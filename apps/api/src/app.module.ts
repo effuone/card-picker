@@ -12,6 +12,7 @@ import { UserModule } from './user/user.module';
 import { LoggingHttpModule } from './core/http.logging-module';
 import { DatabaseModule } from './database/database.module';
 import { JwtModule } from '@nestjs/jwt';
+import { CardsModule } from './cards/cards.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { JwtModule } from '@nestjs/jwt';
     LoggingHttpModule,
     DatabaseModule,
     JwtModule,
+    CardsModule,
   ],
   controllers: [AppController, AuthController],
   providers: [AppService],

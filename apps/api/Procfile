@@ -1,2 +1,2 @@
 web: yarn start:prod
-release: npx prisma migrate deploy && yarn seed
+release: npx prisma migrate dev

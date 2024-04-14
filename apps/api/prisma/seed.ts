@@ -8,23 +8,11 @@ const cardTypes = [
   { bank: 'BCC', cardTypes: ['#картакарта', '#ironcard', '#juniorcard'] },
   {
     bank: 'Halyk',
-    cardTypes: [
-      'Halyk Bonus Digital',
-      'Halyk Bonus',
-      'Halyk Sinooil Digital',
-      'Halyk Black',
-      'Halyk Diamond',
-    ],
+    cardTypes: ['Halyk Bonus'],
   },
   {
     bank: 'Forte',
-    cardTypes: [
-      'Forte Travel',
-      'Forte Blue',
-      'Forte Black',
-      'Forte Solo',
-      'Детская карта Forte',
-    ],
+    cardTypes: ['Forte Black'],
   },
   {
     bank: 'Kaspi',

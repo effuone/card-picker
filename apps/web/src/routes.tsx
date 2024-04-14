@@ -9,6 +9,7 @@ import {
 import AuthPage from "./pages/AuthPage";
 import MyCardsPage from "./pages/MyCards";
 import { PartnerPage } from "./pages/PartnerPage";
+import AddCard from './pages/AddCard';
 
 const DefaultRoute = () => {
   const user = useAuth()?.user;

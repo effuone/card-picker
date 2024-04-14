@@ -1,39 +1,40 @@
-import { CardCustom } from "@/components/card-custom";
-import { Input } from "@/components/ui/input";
-import { FC } from "react";
+import { CardCustom } from '@/components/card-custom';
+import { Input } from '@/components/ui/input';
+import backendApiInstance from '@/services';
+import { FC, useEffect, useState } from 'react';
 
 const mockData = {
-  partnerName: "H&M, Мангилик Ел 252/1",
-  category: "Одежда",
+  partnerName: 'H&M, Мангилик Ел 252/1',
+  category: 'Одежда',
   cards: [
     {
       id: 1,
-      bankName: "Halyk Bank",
-      color: "halyk",
-      cardName: "default",
+      bankName: 'Halyk Bank',
+      color: 'halyk',
+      cardName: 'default',
       isVisa: false,
       cashback: 10,
-      day: "Выходной День",
+      day: 'Выходной День',
       sum: 5000,
     },
     {
       id: 2,
-      bankName: "Bank CreditCredit",
-      color: "bcc",
-      cardName: "default",
+      bankName: 'Bank CreditCredit',
+      color: 'bcc',
+      cardName: 'default',
       isVisa: true,
       cashback: 10,
-      day: "Выходной День",
+      day: 'Выходной День',
       sum: 5000,
     },
     {
       id: 3,
-      bankName: "Forte Bank",
-      color: "forte",
-      cardName: "default",
+      bankName: 'Forte Bank',
+      color: 'forte',
+      cardName: 'default',
       isVisa: true,
       cashback: 10,
-      day: "Выходной День",
+      day: 'Выходной День',
       sum: 5000,
     },
   ],

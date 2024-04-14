@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 interface CardCustomProps {
   bankName: string;
@@ -14,10 +14,10 @@ export const CardCustom: React.FC<CardCustomProps> = ({
   isVisa,
 }) => {
   const colors = {
-    jusan: "bg-gradient-to-r from-orange-500 to-orange-400",
-    bcc: "bg-gradient-to-r from-green-300 to-green-400",
-    halyk: "bg-gradient-to-r from-emerald-600 to-emerald-600",
-    forte: "bg-gradient-to-r from-rose-700 to-red-600",
+    jusan: 'bg-gradient-to-r from-orange-500 to-orange-400',
+    bcc: 'bg-gradient-to-r from-green-300 to-green-400',
+    halyk: 'bg-gradient-to-r from-emerald-600 to-emerald-600',
+    forte: 'bg-gradient-to-r from-rose-700 to-red-600',
   };
 
   return (
@@ -30,8 +30,8 @@ export const CardCustom: React.FC<CardCustomProps> = ({
           loading="lazy"
           src={
             isVisa
-              ? "https://i.imgur.com/q3vT2My.png"
-              : "https://i.imgur.com/E08Rmgv.png"
+              ? 'https://i.imgur.com/q3vT2My.png'
+              : 'https://i.imgur.com/E08Rmgv.png'
           }
           className=" w-[80px] h-[45px] object-contain"
         />

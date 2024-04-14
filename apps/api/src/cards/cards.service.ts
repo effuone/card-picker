@@ -42,6 +42,18 @@ export class CardsService {
       take: pageSize,
     });
 
+    partners.sort((a, b) => {
+      const maxCashbackA = a.CashbackOffers.reduce(
+        (max, offer) => Math.max(max, offer.cashbackPercent),
+        0,
+      );
+      const maxCashbackB = b.CashbackOffers.reduce(
+        (max, offer) => Math.max(max, offer.cashbackPercent),
+        0,
+      );
+      return maxCashbackB - maxCashbackA; // For descending order
+    });
+
     return partners.map((partner) => ({
       id: partner.id,
       name: partner.name,

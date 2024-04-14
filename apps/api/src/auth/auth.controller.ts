@@ -84,6 +84,7 @@ export class AuthController {
         surname: existingUser.surname,
         email: existingUser.email,
         phone: existingUser.phone,
+        token: accessToken,
       };
     } catch (error: any) {
       this.logger.error(error.message);

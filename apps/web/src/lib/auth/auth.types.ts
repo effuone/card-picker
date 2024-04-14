@@ -17,6 +17,7 @@ type UserData = {
   surname: string;
   email: string;
   phone: string;
+  token: string;
 };
 
 export type { RegistrationData, LoginData, UserData };

@@ -68,4 +68,18 @@ export class CardsService {
       cardType: partner.CashbackOffers[0]?.BankCardType.name,
     }));
   }
+
+  async getPartnerById(partnerId: number) {
+    return await this.databaseService.partner.findUnique({
+      where: { id: partnerId },
+      include: {
+        Category: true,
+        CashbackOffers: {
+          include: {
+            BankCardType: true,
+          },
+        },
+      },
+    });
+  }
 }

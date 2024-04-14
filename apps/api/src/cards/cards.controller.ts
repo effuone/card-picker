@@ -1,4 +1,4 @@
-import { Controller, Get, Query } from '@nestjs/common';
+import { Controller, Get, Param, ParseIntPipe, Query } from '@nestjs/common';
 import { CardsService } from './cards.service';
 
 @Controller('cards')
@@ -23,5 +23,10 @@ export class CardsController {
       numPage,
       numPageSize,
     );
+  }
+
+  @Get('partners/:id')
+  getPartnerById(@Param('id', ParseIntPipe) partnerId: number) {
+    return this.cardsService.getPartnerById(partnerId);
   }
 }
